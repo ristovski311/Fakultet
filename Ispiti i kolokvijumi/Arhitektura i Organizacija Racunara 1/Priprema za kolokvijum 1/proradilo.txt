@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <math.h>
+#define MAX 50
+void uredi(int X[], int n, int smer)
+{
+	int p, q, im, pom;
+	if(smer == 1)
+		for (p = 0; p < n - 1; p++)
+		{
+			im = p;
+			for (q = p + 1; q < n; q++)
+			{
+				if (X[im] > X[q])
+					im = q;
+			}
+			if (im != p)
+			{
+				pom = X[im];
+				X[im] = X[p];
+				X[p] = pom;
+			}
+		}
+	else
+		for (p = 0; p < n - 1; p++)
+		{
+			im = p;
+			for (q = p + 1; q < n; q++)
+			{
+				if (X[im] < X[q])
+					im = q;
+			}
+			if (im != p)
+			{
+				pom = X[im];
+				X[im] = X[p];
+				X[p] = pom;
+			}
+		}
+}
+void main()
+{
+	int A[100], N, smer, i;
+	printf("Unesi N\n");
+	scanf("%d", &N);
+	printf("Unesi niz\n");
+	for (i = 0; i < N; i++)
+		scanf("%d", &A[i]);
+	
+	printf("Niz\n");
+	for (i = 0; i < N; i++)
+		printf("%d ", A[i]);
+
+
+	uredi(A, N, 1);
+	printf("\nNiz posle uredjenja prvog\n");
+	for (i = 0; i < N; i++)
+		printf("%d ", A[i]);
+	
+	uredi(A, N, -1);
+	printf("\nNiz posle drugoga uredjenja\n");
+	for (i = 0; i < N; i++)
+		printf("%d ", A[i]);
+
+}

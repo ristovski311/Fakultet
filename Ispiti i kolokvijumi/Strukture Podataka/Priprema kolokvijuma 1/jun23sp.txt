@@ -1,0 +1,89 @@
+1.
+bool LList::deleteSublist(LList* sublist)
+{
+	//jun23
+	if (head == NULL)
+		return false;
+
+	bool moreToDo = true;
+	int timesDone = 0;
+
+	while (moreToDo)
+	{
+		LListNode* firstL;
+		LListNode* lastL;
+		LListNode* curL;
+		LListNode* curSub = sublist->head;
+		//dodaj ako je na glavi pocetak subliste
+
+		if (head->info == curSub->info)
+		{
+			curL = head;
+			while (curSub != NULL && curL != NULL && curL->info == curSub->info)
+			{
+				lastL = curL;
+				curSub = curSub->next;
+				curL = curL->next;
+			}
+			if (curSub == NULL)
+			{
+				LListNode* tmp = head;
+				head = lastL->next;
+				lastL->next = NULL;
+				while (tmp != NULL)
+				{
+					LListNode* forDel = tmp;
+					tmp = tmp->next;
+					delete forDel;
+				}
+				timesDone++;
+			}
+
+		}
+		curSub = sublist->head;
+
+		firstL = head;
+
+		while (firstL->next != NULL && firstL->next->info != curSub->info)
+		{
+			firstL = firstL->next;
+		}
+		if (firstL->next == NULL)
+		{
+			moreToDo = false;
+			break;
+		}
+		curL = firstL->next;
+
+		while (curSub != NULL && curL != NULL && curL->info == curSub->info)
+		{
+			lastL = curL;
+			curSub = curSub->next;
+			curL = curL->next;
+		}
+		if (curSub != NULL)
+			moreToDo = false;
+
+		LListNode* tmp = firstL->next;
+		firstL->next = lastL->next; //obrisao
+
+		this->printAll();
+		cout << endl;
+
+		//brisanje iz memorije
+		lastL->next = NULL;
+		while (tmp != NULL)
+		{
+			LListNode* forDel = tmp;
+			tmp = tmp->next;
+			delete forDel;
+		}
+		timesDone++;
+	}
+
+	if (timesDone == 0)
+		return false;
+	else
+		return true;
+
+}

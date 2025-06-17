@@ -1,0 +1,14 @@
+zametak cpp d
+zametak h d
+sr cpp
+sr h
+jp cpp
+jp h
+r cpp
+r h
+p h
+p cpp
+tr h
+tr cpp
+tp h
+tp cpp

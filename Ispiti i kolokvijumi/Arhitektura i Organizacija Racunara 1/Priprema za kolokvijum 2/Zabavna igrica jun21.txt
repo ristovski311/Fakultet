@@ -1,0 +1,57 @@
+//jun221
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+int isnew(char s[], char all[100][100], int *brreci)
+{
+	int p = 0, q, pom, wlen, new = 1;
+	wlen = strlen(s);
+	while((p <= *brreci) && new == 1)
+	{
+		q = 0;
+		while (all[p][q] == s[q] && s[q] != '\0')
+			q++;
+		if (q == wlen)
+		{
+			new = 0;
+		}
+		p++;
+	}
+	return new;
+}
+void main()
+{
+	int brReci = 0, i, gameon = 1;
+	char word[100], allwords[100][100], letter;
+	printf("Uneti pocetno slovo\n");
+	scanf("%c", &letter);
+	printf("Uneti rec\n");
+	getchar();
+	while (gameon)
+	{
+		gets(word);
+		if (word[0] != letter)
+		{
+			printf("Uneli ste rec koja ne pocinje zadatim slovom, igra je zavrsena!\n");
+			printf("Broj novih reci koje ste uneli: %d\n\nOvo su te reci:\n", brReci);
+			for (i = 0; i < brReci; i++)
+				printf("%s\n", allwords[i]);
+			gameon = 0;
+		}
+		else if (!isnew(word, allwords, &brReci))
+		{
+			printf("Uneli ste identicnu rec kao malopre! Kraj igre!\n");
+			printf("Broj novih reci koje ste uneli: %d\n\nOvo su te reci:\n", brReci);
+			for (i = 0; i < brReci; i++)
+				printf("%s\n", allwords[i]);
+			gameon = 0;
+		}
+		else if (isnew(word, allwords, &brReci))
+		{
+			strcpy(allwords[brReci], word);
+			brReci++;
+			printf("Bravo, uneli ste novu rec! Nastavite dalje!\n");
+		}
+
+	}
+}

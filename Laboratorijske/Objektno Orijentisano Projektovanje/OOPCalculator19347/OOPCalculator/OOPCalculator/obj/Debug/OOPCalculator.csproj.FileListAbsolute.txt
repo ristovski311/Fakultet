@@ -1,0 +1,10 @@
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\bin\Debug\OOPCalculator.exe.config
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\bin\Debug\OOPCalculator.exe
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\bin\Debug\OOPCalculator.pdb
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\obj\Debug\OOPCalculator.csproj.AssemblyReference.cache
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\obj\Debug\OOPCalculator.Form1.resources
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\obj\Debug\OOPCalculator.Properties.Resources.resources
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\obj\Debug\OOPCalculator.csproj.GenerateResource.cache
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\obj\Debug\OOPCalculator.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\obj\Debug\OOPCalculator.exe
+C:\Users\risto\source\repos\OOPCalculator\OOPCalculator\obj\Debug\OOPCalculator.pdb

@@ -1,0 +1,26 @@
+1.
+int LList::SwapPairs(int data1, int data2)
+{
+	int res = 0;
+	if (head == NULL)
+		return 0;
+	LListNode* current = this->head;
+	while (current != NULL && current->next != NULL && current->next->info != data1)
+	{
+		current = current->next;
+	}
+	if (current == NULL)
+		return 0;
+	while (current != NULL && current->next!= NULL && current->next->info != data2)
+	{
+		LListNode* tmp = current->next;
+		current->next = tmp->next;
+		tmp->next = current->next->next;
+		current->next->next = tmp;
+		tmp = nullptr;
+		current = current->next->next;
+		res++;
+	}
+	return res;
+
+}

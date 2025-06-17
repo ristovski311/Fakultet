@@ -1,0 +1,67 @@
+1.
+
+bool LList::reverseOrder(int first, int last)
+{
+	//dec23
+	//doradi malo ovo mng je komplikovano
+	LListNode* pCur;
+	LListNode* pFirst = head;
+	LListNode* pLast = head;
+	if (head->info == last)
+	{
+		return false;
+	}
+	if (head->info == first)
+	{
+		while (pLast != NULL && pLast->info != last)
+		{
+			pLast = pLast->next;
+		}
+		if (pLast == NULL)
+			return false;
+		pLast = pLast->next;
+		pCur = head;
+		while (pCur->next != pLast)
+		{
+			LListNode* tmp = pCur->next;
+
+			pCur->next = tmp->next;
+			tmp->next = head;
+			head = tmp;
+
+			tmp = nullptr;
+			this->printAll(); cout << endl << endl;
+		}
+		return true;
+	}
+	else
+	{
+		while (pLast != NULL && pLast->info != last)
+		{
+			pLast = pLast->next;
+		}
+		if (pLast == NULL)
+			return false;
+		while (pFirst->next != NULL && pFirst->next->info != first && pFirst->next->info != last)
+		{
+			pFirst = pFirst->next;
+		}
+		if (pFirst->next == NULL || pFirst->next->info == last)
+			return false;
+		pLast = pLast->next;
+		pCur = pFirst->next;
+		while (pCur->next != pLast)
+		{
+			LListNode* tmp = pCur->next;
+
+			pCur->next = tmp->next;
+			tmp->next = pFirst->next;
+			pFirst->next = tmp;
+
+			tmp = nullptr;
+			this->printAll(); cout << endl << endl;
+		}
+		return true;
+	}
+
+}

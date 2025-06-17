@@ -1,0 +1,26 @@
+Maksimalno studenata u spisku: 6
+Trenutno ih ima u spisku: 6
+
+Indeks: 101
+Bodovi na laboratorijskim: 11
+Bodovi na usmenom: 25
+Prvi kolokvijum bodovi: 12
+Drugi kolokvijum bodovi: 15
+Indeks: 102
+Bodovi na laboratorijskim: 15
+Bodovi na usmenom: 35
+Bodovi na pisanom u celini: 20
+Indeks: 103
+Bodovi na laboratorijskim: 20
+Bodovi na usmenom: 40
+Prvi kolokvijum bodovi: 20
+Drugi kolokvijum bodovi: 20
+Indeks: 105
+Bodovi na laboratorijskim: 9
+Bodovi na usmenom: 8
+Prvi kolokvijum bodovi: 1
+Drugi kolokvijum bodovi: 19
+Indeks: 106
+Bodovi na laboratorijskim: 14
+Bodovi na usmenom: 40
+Bodovi na pisanom u celini: 32

@@ -1,0 +1,38 @@
+#include <stdio.h>
+void rotate(int* X, int N, int k);
+void main()
+{
+	int A[100][100], i, M, j;
+	printf("Unesi dimenziju matrice M\n");
+	scanf("%d", &M);
+	printf("Unesi matricu\n");
+	for (i = 0; i < M; i++)
+		for (j = 0; j < M; j++)
+			scanf("%d", &A[i][j]);
+	for (i = 0; i < M; i++)
+	{
+		rotate(A[i], M, i+1);
+	}
+	for (i = 0; i < M; i++)
+	{
+		printf("|  ");
+		for (j = 0; j < M; j++)
+			printf("%4d ", A[i][j]);
+		printf("  |\n");
+	}
+}
+void rotate(int* X, int N, int k)
+{
+	int i, j, p;
+	for (i = 0; i < k; i++)
+	{
+		p = X[0];
+		for (j = 0; j < N - 1; j++)
+		{
+			
+			X[j] = X[j + 1];
+			
+		}
+		X[N - 1] = p;
+	}
+}

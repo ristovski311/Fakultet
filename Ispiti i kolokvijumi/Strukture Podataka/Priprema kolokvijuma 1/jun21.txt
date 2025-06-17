@@ -1,0 +1,56 @@
+LList* LList::extractEven()
+{
+	//jun 21
+
+	LList* newList = new LList();
+
+	LListNode* cur = head;
+	LListNode* prev = NULL;
+	LListNode* tmp = NULL;
+
+	while (cur != NULL && cur->next != NULL)
+	{
+		while(cur != NULL && cur->info % 2 != 0)
+		{
+			prev = cur;
+			cur = cur->next;
+		}
+		if (cur == NULL)
+			break;
+		else if(prev == NULL)
+		{
+			tmp = head;
+			head = head->next;
+			cur = head;
+		}
+		else
+		{
+			tmp = cur;
+			prev->next = tmp->next;
+			cur = prev->next;
+		}
+
+		//dodavanje u novu listu
+
+		if (newList->head == NULL)
+		{
+			newList->head = tmp;
+			tmp->next = NULL;
+		}
+		else
+		{
+			LListNode* tmpp = newList->head;
+			while (tmpp->next != NULL)
+			{
+				tmpp = tmpp->next;
+			}
+			tmpp->next = tmp;
+			tmp->next = NULL;
+		}
+
+	}
+
+	return newList;
+
+
+}

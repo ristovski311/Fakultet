@@ -1,0 +1,37 @@
+Kupovina u kolekciji: 6/6
+
+Kod: a1
+Sifra: 11
+Dan od 1.1.2000.:  10
+Osnovna cena: 100
+Popust: 20
+Cena: 80
+
+Kod: b2
+Sifra: 13
+Dan od 1.1.2000.:  7
+Osnovna cena: 50
+Popust: 30
+Cena: 50
+
+Kod: a3
+Sifra: 12
+Dan od 1.1.2000.:  5
+Osnovna cena: 10
+Popust: 0
+Cena: 10
+
+Kod: b4
+Sifra: 14
+Dan od 1.1.2000.:  4
+Osnovna cena: 100
+Popust: 10
+Cena: 100
+
+Kod: b6
+Sifra: 13
+Dan od 1.1.2000.:  4
+Osnovna cena: 1000
+Popust: 40
+Cena: 1000
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_t-FCoJxzEe-RG55twJPxKg" name="UseCaseOsiguranje">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_uBimUJxzEe-RG55twJPxKg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3BinMJxzEe-RG55twJPxKg" name="Prikupljanje podataka o vozilu">
+    <extend xmi:type="uml:Extend" xmi:id="_cEUg4Jx1Ee-RG55twJPxKg" extendedCase="_3BlDdJxzEe-RG55twJPxKg" extensionLocation="_cEVH8Jx1Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3BkcYJxzEe-RG55twJPxKg" name="Prijem zahteva O">
+    <include xmi:type="uml:Include" xmi:id="_tWhogJx1Ee-RG55twJPxKg" addition="_3BlDc5xzEe-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3BkcYZxzEe-RG55twJPxKg" name="Prosledjivanje zahteva sluzbama">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_sC8gwJx1Ee-RG55twJPxKg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3BkcYpxzEe-RG55twJPxKg" name="Validacija uplate takse">
+    <extend xmi:type="uml:Extend" xmi:id="_ZP-xAJx1Ee-RG55twJPxKg" extendedCase="_3BlDdJxzEe-RG55twJPxKg" extensionLocation="_ZP-xAZx1Ee-RG55twJPxKg"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0MroAJx1Ee-RG55twJPxKg" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3BkcY5xzEe-RG55twJPxKg" name="Prikupljanje podataka o vlasniku">
+    <extend xmi:type="uml:Extend" xmi:id="_bH578Jx1Ee-RG55twJPxKg" extendedCase="_3BlDdJxzEe-RG55twJPxKg" extensionLocation="_bH578Zx1Ee-RG55twJPxKg"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_RTqasJx1Ee-RG55twJPxKg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3BlDcJxzEe-RG55twJPxKg" name="Salter"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3BlDcZxzEe-RG55twJPxKg" name="Sluzba osiguranja"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3BlDcpxzEe-RG55twJPxKg" name="Odbijanje zahteva O">
+    <extend xmi:type="uml:Extend" xmi:id="_0MqZ4Jx1Ee-RG55twJPxKg" extendedCase="_3BkcYpxzEe-RG55twJPxKg" extensionLocation="_0MroAJx1Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3BlDc5xzEe-RG55twJPxKg" name="Prosledjivanje zahteva osiguranju">
+    <extend xmi:type="uml:Extend" xmi:id="_sC7SoJx1Ee-RG55twJPxKg" extendedCase="_3BkcYZxzEe-RG55twJPxKg" extensionLocation="_sC8gwJx1Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3BlDdJxzEe-RG55twJPxKg" name="Prikupljanje i validacija podataka">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZP-xAZx1Ee-RG55twJPxKg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bH578Zx1Ee-RG55twJPxKg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cEVH8Jx1Ee-RG55twJPxKg" name="ExtensionPoint3"/>
+    <include xmi:type="uml:Include" xmi:id="_uaWdAJx1Ee-RG55twJPxKg" addition="_3BkcYJxzEe-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3BlDdZxzEe-RG55twJPxKg" name="Obavestenje korisnika o neuspelom osiguranju">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DfS2cJx2Ee-RG55twJPxKg" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_EhzcUJx2Ee-RG55twJPxKg" addition="_3BlDcpxzEe-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__c0xcJxzEe-RG55twJPxKg" name="Prijem informacija">
+    <extend xmi:type="uml:Extend" xmi:id="_DfSPYJx2Ee-RG55twJPxKg" extendedCase="_3BlDdZxzEe-RG55twJPxKg" extensionLocation="_DfS2cJx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__c1YgJxzEe-RG55twJPxKg" name="Vlasnik vozila"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Mx3f8Jx0Ee-RG55twJPxKg" name="Prihvatanje zahteva O">
+    <include xmi:type="uml:Include" xmi:id="_PtvlwJx1Ee-RG55twJPxKg" addition="_3BkcYpxzEe-RG55twJPxKg"/>
+    <include xmi:type="uml:Include" xmi:id="_gGR6cJx1Ee-RG55twJPxKg" addition="_3BlDdJxzEe-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QHtaYJx0Ee-RG55twJPxKg" memberEnd="_QIGb8Jx0Ee-RG55twJPxKg _QIHDAJx0Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QHwdsJx0Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QHxEwJx0Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QIGb8Jx0Ee-RG55twJPxKg" name="odbijanje zahteva o" type="_3BlDcpxzEe-RG55twJPxKg" association="_QHtaYJx0Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QIHDAJx0Ee-RG55twJPxKg" name="sluzba osiguranja" type="_3BlDcZxzEe-RG55twJPxKg" association="_QHtaYJx0Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Q96CkJx0Ee-RG55twJPxKg" memberEnd="_Q97QsJx0Ee-RG55twJPxKg _Q97QsZx0Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q96poJx0Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q96poZx0Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q97QsJx0Ee-RG55twJPxKg" name="prihvatanje zahteva o" type="_Mx3f8Jx0Ee-RG55twJPxKg" association="_Q96CkJx0Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q97QsZx0Ee-RG55twJPxKg" name="sluzba osiguranja" type="_3BlDcZxzEe-RG55twJPxKg" association="_Q96CkJx0Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dZ_v0Jx0Ee-RG55twJPxKg" memberEnd="_daA98Zx0Ee-RG55twJPxKg _daA98px0Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_daAW4Jx0Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_daA98Jx0Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_daA98Zx0Ee-RG55twJPxKg" name="prosledjivanje zahteva sluzbama" type="_3BkcYZxzEe-RG55twJPxKg" association="_dZ_v0Jx0Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_daA98px0Ee-RG55twJPxKg" name="salter" type="_3BlDcJxzEe-RG55twJPxKg" association="_dZ_v0Jx0Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0PncsJx0Ee-RG55twJPxKg" memberEnd="_0PoDwZx0Ee-RG55twJPxKg _0PoDwpx0Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0PncsZx0Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0PoDwJx0Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0PoDwZx0Ee-RG55twJPxKg" name="vlasnik vozila" type="__c1YgJxzEe-RG55twJPxKg" association="_0PncsJx0Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0PoDwpx0Ee-RG55twJPxKg" name="prijem informacija" type="__c0xcJxzEe-RG55twJPxKg" association="_0PncsJx0Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YGZ50Jx1Ee-RG55twJPxKg" memberEnd="_YGbH8px1Ee-RG55twJPxKg _YGbvAJx1Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YGbH8Jx1Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YGbH8Zx1Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YGbH8px1Ee-RG55twJPxKg" name="prikupljanje i validacija podataka" type="_3BlDdJxzEe-RG55twJPxKg" association="_YGZ50Jx1Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YGbvAJx1Ee-RG55twJPxKg" name="sluzba osiguranja" type="_3BlDcZxzEe-RG55twJPxKg" association="_YGZ50Jx1Ee-RG55twJPxKg"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,31 @@
+#include <stdio.h>
+#define MAX 50
+int funkcija(int X[MAX][MAX], int N)
+{
+	int p, q, s = 0;
+	for(p = 0; p < N; p++)
+		for (q = 0; q < N; q++)
+		{
+			if (p + q > N - 1)
+				s += X[p][q];
+		}
+	return s;
+}
+void main()
+{
+	int A[MAX][MAX], B[MAX][MAX], i, j, N;
+	printf("Unesi N\n");
+	scanf("%d", &N);
+	printf("Unesi matricu A\n");
+	for (i = 0; i < N; i++)
+		for (j = 0; j < N; j++)
+			scanf("%d", &A[i][j]);
+	printf("Unesi matricu B\n");
+	for (i = 0; i < N; i++)
+		for (j = 0; j < N; j++)
+			scanf("%d", &B[i][j]);
+	if (funkcija(A, N) > funkcija(B, N))
+		printf("Funkcija A: %d", funkcija(A, N));
+	else
+		printf("Funkcija B: %d", funkcija(B, N));
+}

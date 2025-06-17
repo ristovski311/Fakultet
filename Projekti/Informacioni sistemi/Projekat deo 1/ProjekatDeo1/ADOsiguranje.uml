@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SOKA4J0hEe-bdvtpYtSlbQ" name="ADOsiguranje">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_SPAVcJ0hEe-bdvtpYtSlbQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_SOSjwJ0hEe-bdvtpYtSlbQ" name="Osiguranje" node="_cUbGQJ0hEe-bdvtpYtSlbQ _p9hZMJ0hEe-bdvtpYtSlbQ _tEOrcJ0hEe-bdvtpYtSlbQ _wdZmsJ0hEe-bdvtpYtSlbQ _zHspwJ0hEe-bdvtpYtSlbQ _6RR7kJ0hEe-bdvtpYtSlbQ _AiFyUJ0iEe-bdvtpYtSlbQ _J6d28J0iEe-bdvtpYtSlbQ _PAJXUJ0iEe-bdvtpYtSlbQ _SFf-sJ0iEe-bdvtpYtSlbQ _V2RhoJ0iEe-bdvtpYtSlbQ _Y_KlMJ0iEe-bdvtpYtSlbQ _ZooY8J0iEe-bdvtpYtSlbQ _RqY6kJ0jEe-FtqdCmfzpWg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gEmW0J0iEe-bdvtpYtSlbQ" target="_p9hZMJ0hEe-bdvtpYtSlbQ" source="_cUbGQJ0hEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_i2BVkJ0iEe-bdvtpYtSlbQ" target="_tEOrcJ0hEe-bdvtpYtSlbQ" source="_p9hZMJ0hEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_skzIAJ0iEe-upOnhzpNqAA" target="_wdZmsJ0hEe-bdvtpYtSlbQ" source="_tEOrcJ0hEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uioGoJ0iEe-upOnhzpNqAA" name="[Validni]" target="_6RR7kJ0hEe-bdvtpYtSlbQ" source="_wdZmsJ0hEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LA-WkJ0jEe-FtqdCmfzpWg" target="_AiFyUJ0iEe-bdvtpYtSlbQ" source="_6RR7kJ0hEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_L5hvMJ0jEe-FtqdCmfzpWg" name="[Uplacena]" target="_J6d28J0iEe-bdvtpYtSlbQ" source="_AiFyUJ0iEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VHyOgJ0jEe-FtqdCmfzpWg" name="[Nije uplacena]" target="_RqY6kJ0jEe-FtqdCmfzpWg" source="_AiFyUJ0iEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WAQuoJ0jEe-FtqdCmfzpWg" name="[Nevalidni]" target="_RqY6kJ0jEe-FtqdCmfzpWg" source="_wdZmsJ0hEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WsHvEJ0jEe-FtqdCmfzpWg" target="_zHspwJ0hEe-bdvtpYtSlbQ" source="_RqY6kJ0jEe-FtqdCmfzpWg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kY4aAJ0jEe-bXs74yAMiQQ" target="_PAJXUJ0iEe-bdvtpYtSlbQ" source="_J6d28J0iEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lOlS8J0jEe-bXs74yAMiQQ" target="_V2RhoJ0iEe-bdvtpYtSlbQ" source="_zHspwJ0hEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_l97FMJ0jEe-bXs74yAMiQQ" target="_SFf-sJ0iEe-bdvtpYtSlbQ" source="_PAJXUJ0iEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_m1TZIJ0jEe-bXs74yAMiQQ" target="_ZooY8J0iEe-bdvtpYtSlbQ" source="_V2RhoJ0iEe-bdvtpYtSlbQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nlwlsJ0jEe-bXs74yAMiQQ" target="_Y_KlMJ0iEe-bdvtpYtSlbQ" source="_SFf-sJ0iEe-bdvtpYtSlbQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_cUbGQJ0hEe-bdvtpYtSlbQ" name="Preuzimanje zahteva od saltera" outgoing="_gEmW0J0iEe-bdvtpYtSlbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_p9hZMJ0hEe-bdvtpYtSlbQ" name="Prikupljanje podataka o vlasniku" incoming="_gEmW0J0iEe-bdvtpYtSlbQ" outgoing="_i2BVkJ0iEe-bdvtpYtSlbQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_tEOrcJ0hEe-bdvtpYtSlbQ" name="Prikupljanje podataka o vozilu" incoming="_i2BVkJ0iEe-bdvtpYtSlbQ" outgoing="_skzIAJ0iEe-upOnhzpNqAA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_wdZmsJ0hEe-bdvtpYtSlbQ" name="Validni podaci?" incoming="_skzIAJ0iEe-upOnhzpNqAA" outgoing="_uioGoJ0iEe-upOnhzpNqAA _WAQuoJ0jEe-FtqdCmfzpWg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_zHspwJ0hEe-bdvtpYtSlbQ" name="Odbijanje zahteva" incoming="_WsHvEJ0jEe-FtqdCmfzpWg" outgoing="_lOlS8J0jEe-bXs74yAMiQQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6RR7kJ0hEe-bdvtpYtSlbQ" name="Validiranje uplate takse" incoming="_uioGoJ0iEe-upOnhzpNqAA" outgoing="_LA-WkJ0jEe-FtqdCmfzpWg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_AiFyUJ0iEe-bdvtpYtSlbQ" name="Uplacena taksa?" incoming="_LA-WkJ0jEe-FtqdCmfzpWg" outgoing="_L5hvMJ0jEe-FtqdCmfzpWg _VHyOgJ0jEe-FtqdCmfzpWg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_J6d28J0iEe-bdvtpYtSlbQ" name="Prihvatanje zahteva" incoming="_L5hvMJ0jEe-FtqdCmfzpWg" outgoing="_kY4aAJ0jEe-bXs74yAMiQQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PAJXUJ0iEe-bdvtpYtSlbQ" name="Popunjavanje izvestaja o osiguranju" incoming="_kY4aAJ0jEe-bXs74yAMiQQ" outgoing="_l97FMJ0jEe-bXs74yAMiQQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_SFf-sJ0iEe-bdvtpYtSlbQ" name="Obavestenje sluzbe o uspesnom osiguranju" incoming="_l97FMJ0jEe-bXs74yAMiQQ" outgoing="_nlwlsJ0jEe-bXs74yAMiQQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_V2RhoJ0iEe-bdvtpYtSlbQ" name="Obavestenje sluzbe o neuspesnom osiguranju" incoming="_lOlS8J0jEe-bXs74yAMiQQ" outgoing="_m1TZIJ0jEe-bXs74yAMiQQ"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_Y_KlMJ0iEe-bdvtpYtSlbQ" name="Uspesno osiguranje" incoming="_nlwlsJ0jEe-bXs74yAMiQQ"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_ZooY8J0iEe-bdvtpYtSlbQ" name="Neuspesno osiguranje" incoming="_m1TZIJ0jEe-bXs74yAMiQQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_RqY6kJ0jEe-FtqdCmfzpWg" incoming="_VHyOgJ0jEe-FtqdCmfzpWg _WAQuoJ0jEe-FtqdCmfzpWg" outgoing="_WsHvEJ0jEe-FtqdCmfzpWg"/>
+  </packagedElement>
+</uml:Model>

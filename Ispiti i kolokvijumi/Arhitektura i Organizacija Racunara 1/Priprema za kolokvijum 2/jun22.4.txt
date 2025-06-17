@@ -1,0 +1,23 @@
+//lab6
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int money, maxmoney = 0, time, maxtime = 0;
+	char ime[100], prez[100], maxime[100], maxprez[100];
+	FILE* fmaj;
+	fmaj = fopen("maj.txt", "r");
+	while (!feof(fmaj))
+	{
+		fscanf(fmaj, "%s%s%d%d", ime, prez, &money, &time);
+		if (time * money > maxtime * maxmoney)
+		{
+			maxmoney = money;
+			maxtime = time;
+			strcpy(maxime, ime);
+			strcpy(maxprez, prez);
+		}
+	}
+	printf("%s %s %d %d %d", maxime, maxprez, maxtime, maxmoney, maxtime * maxmoney);
+}

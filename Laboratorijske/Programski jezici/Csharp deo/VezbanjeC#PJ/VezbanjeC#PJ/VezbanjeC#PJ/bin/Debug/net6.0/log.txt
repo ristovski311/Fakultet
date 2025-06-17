@@ -1,0 +1,42 @@
+Serija 1
+2
+Thursday
+10
+90000
+INOSTRANA
+11250
+Serija 3
+4
+Saturday
+50
+500000
+DOMACA
+10000
+Emisija Studijska 1
+4
+Thursday
+10000
+20
+100
+12000
+Serija 1
+2
+Thursday
+10
+90000
+INOSTRANA
+11250
+Serija 3
+4
+Saturday
+50
+500000
+DOMACA
+10000
+Emisija Studijska 1
+4
+Thursday
+10000
+20
+100
+12000

@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+	int x, j, i = 0,N, ima = 0,t, m,  A[100];
+	do {
+		printf("Unesite element niza\n");
+		scanf("%d", &x);
+		if (x > 0)
+		{
+			A[i] = x;
+			i++;
+		}
+	} while (x > 0);
+	N = i;
+	i = 0;
+	while (i < N)
+	{
+		m = 0;
+		j = i + 1;
+		while (A[j] == A[i] && j!=i)
+		{
+			j++;
+			m++;
+		}
+		if (m != 0)
+		{
+			for (t = i + 1; t < N; t++)
+				A[t] = A[t + m];
+			N -= m;
+
+		}
+		i++;
+
+	}
+	for (i = 0; i < N; i++)
+		printf("%d ", A[i]);
+}

@@ -1,0 +1,34 @@
+Predmeta u rancu: 5/5
+
+Masa: 100
+Koeficijent cistoce: 0.5
+Boja: ljubicasta
+Rez: 10
+Vrednost: 100.5
+Vrednost po jedinici mase: 1.005
+
+Masa: 1000
+Stepen cistoce: 12
+Vrednost: 500
+Vrednost po jedinici mase: 0.5
+
+Masa: 100
+Koeficijent slatkoce: 0.4
+Koeficijent kiselosti: 0.9
+Boja: zelena
+Vrednost: 0
+Vrednost po jedinici mase: 0
+
+Masa: 500
+Koeficijent cistoce: 0.4
+Boja: plava
+Rez: 4
+Vrednost: 500.4
+Vrednost po jedinici mase: 1.0008
+
+Masa: 2000
+Koeficijent cistoce: 0.8
+Boja: zelena
+Rez: 1
+Vrednost: 2000.8
+Vrednost po jedinici mase: 1.0004

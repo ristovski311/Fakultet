@@ -1,0 +1,27 @@
+//2.63
+#include <stdio.h>
+#include <string.h>
+
+void main()
+{
+	char string[100];
+	int i = 0, j, maxlen = 0, imaxw, lenght, wstart, wend;
+	printf("Upisi string");
+	gets(string);
+	while (string[i] != '\0')
+	{
+		while (string[i] == ' ')
+			i++;
+		wstart = i;
+		while (string[i] != ' ' && string[i] != '\0')
+			i++;
+		wend = i;
+		lenght = wend - wstart;
+		if (lenght > maxlen)
+		{
+			maxlen = lenght;
+			imaxw = wstart;
+		}
+	}
+	printf("Najduza rec ima %d karaktera i nalazi se na poziciji %d", maxlen, imaxw);
+}

@@ -1,0 +1,38 @@
+Kapacitet: 6
+Trenutno ima: 6
+Adresa: Jovana1
+Boja: plavi
+Broj autica: 2
+Tezina autica: 100
+Cena autica: 100
+
+Adresa: Marka1
+Boja: roze
+Broj cokolada: 10
+Tezina cokolada: 100
+Cena cokolada: 20
+
+Adresa: Jovana1
+Boja: plavi
+Broj autica: 2
+Tezina autica: 100
+Cena autica: 100
+
+Adresa: Jovana2
+Boja: ljubicasta
+Broj cokolada: 4
+Tezina cokolada: 50
+Cena cokolada: 10
+
+Adresa: Jovana1
+Boja: plavi
+Broj autica: 2
+Tezina autica: 100
+Cena autica: 100
+
+Adresa: Marka10
+Boja: zuta
+Broj cokolada: 12
+Tezina cokolada: 100
+Cena cokolada: 5
+

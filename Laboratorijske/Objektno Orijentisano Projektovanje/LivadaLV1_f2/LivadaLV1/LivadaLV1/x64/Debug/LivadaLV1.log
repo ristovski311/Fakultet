@@ -1,0 +1,4 @@
+﻿  Livada.cpp
+C:\Users\risto\source\repos\LivadaLV1\LivadaLV1\Livada.cpp(49,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\risto\source\repos\LivadaLV1\LivadaLV1\Livada.cpp(135,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  LivadaLV1.vcxproj -> C:\Users\risto\source\repos\LivadaLV1\x64\Debug\LivadaLV1.exe

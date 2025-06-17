@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memorije", "Memorije\Memorije.csproj", "{2E0CB605-8A70-41DF-AE93-6F9FE6902BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podaci", "Podaci\Podaci.csproj", "{BDE805BF-AF32-4184-8A81-35939D02641C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funkcije", "Funkcije\Funkcije.csproj", "{BCCE9252-D40D-42EC-A5DC-C3D575E7D9D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0CB605-8A70-41DF-AE93-6F9FE6902BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0CB605-8A70-41DF-AE93-6F9FE6902BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0CB605-8A70-41DF-AE93-6F9FE6902BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0CB605-8A70-41DF-AE93-6F9FE6902BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE805BF-AF32-4184-8A81-35939D02641C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE805BF-AF32-4184-8A81-35939D02641C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE805BF-AF32-4184-8A81-35939D02641C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE805BF-AF32-4184-8A81-35939D02641C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCE9252-D40D-42EC-A5DC-C3D575E7D9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCE9252-D40D-42EC-A5DC-C3D575E7D9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCE9252-D40D-42EC-A5DC-C3D575E7D9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCE9252-D40D-42EC-A5DC-C3D575E7D9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E84B5C1-29A9-43F3-A840-12406E29505A}
+	EndGlobalSection
+EndGlobal

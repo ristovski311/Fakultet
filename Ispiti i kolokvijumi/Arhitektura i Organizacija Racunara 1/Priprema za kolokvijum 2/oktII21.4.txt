@@ -1,0 +1,67 @@
+//oktII21
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void raste(int P[], int n)
+{
+	int p, q, imin, pom;
+	for (p = 0; p < n - 1; p++)
+	{
+		imin = p;
+		for (q = p + 1; q < n; q++)
+		{
+			if (P[q] < P[imin])
+				imin = q;
+		}
+		if (imin != p)
+		{
+			pom = P[p];
+			P[p] = P[imin];
+			P[imin] = pom;
+		}
+	}
+}
+void main()
+{
+	int N[100][100], pom[100], n, i, j, k;
+	printf("Uneti n\n");
+	scanf("%d", &n);
+	printf("Uneti elemente matrice\n");
+	for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
+			scanf("%d", &N[i][j]);
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < n; j++)
+			printf("%d ", N[i][j]);
+		printf("\n");
+	}
+	printf("\n\n");
+	k = 0;
+	for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
+		{
+			if (i > j || i + j > n - 1)
+			{
+				pom[k] = N[i][j];
+				k++;
+			}
+		}
+	raste(pom, k);
+	k = 0;
+	for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
+		{
+			if (i > j || i + j > n - 1)
+			{
+				N[i][j] = pom[k];
+				k++;
+			}
+		}
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < n; j++)
+			printf("%d ", N[i][j]);
+		printf("\n");
+	}
+}

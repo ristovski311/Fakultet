@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+	int N,c, x, i, br, A[100];
+	printf("Unesite N\n");
+	scanf("%d", &N);
+	printf("Unesite elemente A\n");
+	for (i = 0; i < N; i++)
+		scanf("%d", A + i);
+	for (i = 0; i < N; i++)
+	{
+		if (A[i] > 9)
+		{
+			br = 0;
+			x = A[i];
+			while (x > 0)
+			{
+				c = x % 10;
+				br = br * 10 + c;
+				x /= 10;
+			}
+		}
+		A[i] = br;
+	}
+	for (i = 0; i < N; i++)
+		printf("%d ", A[i]);
+}

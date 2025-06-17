@@ -1,0 +1,11 @@
+C:\Users\risto\source\repos\OOPCalculator\Extentions\bin\Debug\net8.0\Extentions.deps.json
+C:\Users\risto\source\repos\OOPCalculator\Extentions\bin\Debug\net8.0\Extentions.dll
+C:\Users\risto\source\repos\OOPCalculator\Extentions\bin\Debug\net8.0\Extentions.pdb
+C:\Users\risto\source\repos\OOPCalculator\Extentions\obj\Debug\net8.0\Extentions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\risto\source\repos\OOPCalculator\Extentions\obj\Debug\net8.0\Extentions.AssemblyInfoInputs.cache
+C:\Users\risto\source\repos\OOPCalculator\Extentions\obj\Debug\net8.0\Extentions.AssemblyInfo.cs
+C:\Users\risto\source\repos\OOPCalculator\Extentions\obj\Debug\net8.0\Extentions.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\OOPCalculator\Extentions\obj\Debug\net8.0\Extentions.dll
+C:\Users\risto\source\repos\OOPCalculator\Extentions\obj\Debug\net8.0\refint\Extentions.dll
+C:\Users\risto\source\repos\OOPCalculator\Extentions\obj\Debug\net8.0\Extentions.pdb
+C:\Users\risto\source\repos\OOPCalculator\Extentions\obj\Debug\net8.0\ref\Extentions.dll

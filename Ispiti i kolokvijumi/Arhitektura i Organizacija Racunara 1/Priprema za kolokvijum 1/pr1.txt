@@ -1,0 +1,73 @@
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+	int N, M, i, j, t, k, A[100], B[100], C[200];
+	printf("Unesi N\n");
+	scanf("%d", &N);
+	printf("Unesi M\n");
+	scanf("%d", &M);
+	printf("Unesi elemente A\n");
+	for (i = 0; i < N; i++)
+		scanf("%d", A + i);
+	printf("Unesi elemente B\n");
+	for (i = 0; i < M; i++)
+		scanf("%d", B + i);
+	if (N > M)
+	{
+		i = 0;
+		j = 0;
+		k = 0;
+		while (j < M)
+		{
+			if (A[i] < B[j])
+			{
+				C[k] = A[i];
+				i++;
+				k++;
+			}
+			else
+			{
+				C[k] = B[j];
+				j++;
+				k++;
+			}
+		}
+		for (t = i; t < N; t++)
+		{
+			C[k] = A[t];
+			k++;
+		}
+	}
+	else if (M > N)
+	{
+		i = 0;
+		j = 0;
+		k = 0;
+		while (i < N)
+		{
+			if (A[i] < B[j])
+			{
+				C[k] = A[i];
+				i++;
+				k++;
+			}
+			else
+			{
+				C[k] = B[j];
+				j++;
+				k++;
+			}
+		}
+		for (t = j; t < M; t++)
+		{
+			C[k] = B[t];
+			k++;
+		}
+	}
+	else
+	{
+
+	}
+	for (i = 0; i < k; i++)
+		printf("%d ", C[i]);

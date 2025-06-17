@@ -1,0 +1,24 @@
+//3.84
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+void main()
+{
+	int index, i, poeni, maxind, maxpoeni = 0;
+	char ime[20], prezime[20], maxime[20], maxprez[20];
+	FILE* fp;
+	fp = fopen("spisak.txt", "r");
+	while (!feof(fp))
+	{
+		fscanf(fp, "%d %s %s %d", &index, ime, prezime, &poeni);
+		if (poeni > maxpoeni)
+		{
+			maxpoeni = poeni;
+			maxind = index;
+			strcpy(maxime, ime);
+			strcpy(maxprez, prezime);
+		}
+	}
+	printf("Podaci\nindeks: %d\nime: %s\nprezime: %s\nbroj poena: %d", maxind, maxime, maxprez, maxpoeni);
+	fclose(fp);
+}

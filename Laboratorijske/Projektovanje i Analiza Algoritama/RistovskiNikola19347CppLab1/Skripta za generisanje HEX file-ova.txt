@@ -1,0 +1,43 @@
+#pragma once
+#include <iostream>
+using namespace std;
+
+class MakeAFile
+{
+public:
+	static void MakeHexFile(string o, int num);
+
+};
+
+
+
+
+
+#include "MakeAFile.h"
+#include <fstream>
+#include <random>
+
+void MakeAFile::MakeHexFile(string o, int num)
+{
+	ofstream f(o);
+
+	random_device rd;
+	mt19937 gen(rd());
+
+	uniform_int_distribution<> dist(0,16);
+
+	int i = 0;
+	while(i < num)
+	{
+		int random_number = dist(gen);
+		if (random_number == 16)
+		{
+			f << " ";
+			i++;
+		}
+		else
+			f << std::hex << random_number;
+	}
+
+
+}

@@ -1,0 +1,38 @@
+//lab6
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int i = 0, len = 0, j, found = 0, p = 0, lensen = 0;
+	char s[100], rec[100];
+	FILE* fr, *fu;
+	fr = fopen("recenica.txt", "r");
+	fgets(s, 100, fr);
+	fclose(fr);
+	printf("Unesi rec koju zelis da izbacis");
+	gets(rec);
+	while (s[lensen] != '\0')
+		lensen++;
+	while (rec[len] != '\0')
+		len++;
+	while (s[i] != '\0')
+	{
+		p = 0;
+		while (s[i + p] == rec[p] && rec[p] != '\0')
+		{
+			p++;
+		} 
+		if (p == len)
+		{
+			for (j = i; j < lensen - len; j++)
+				s[j] = s[j + len + 1];
+			lensen = lensen - len - 1;
+			i -= len;
+		}
+		i++;
+	}
+	printf("%s",s);
+}
+//Da li idem d a 0
+//0123456789101112

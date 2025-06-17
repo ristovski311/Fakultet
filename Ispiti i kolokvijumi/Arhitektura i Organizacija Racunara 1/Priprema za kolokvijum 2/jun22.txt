@@ -1,0 +1,34 @@
+//lab6
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void trans(char s[], char c)
+{
+	int p = 0, q, r;
+	while (s[p] != '\0')
+	{
+		q = 0;
+		while (s[p + q] == s[p + q + 1])
+			q++;
+		if (q)
+			s[p] = c;
+		for (r = p + 1; s[r] != '\0'; r++)
+		{
+			s[r] = s[r + q];
+		}
+		p++;
+	}
+}
+void main()
+{
+	int N, i, j = 0;
+	char sent[100], letter;
+	gets(sent);
+	while (sent[j] != '\0')
+		j++;
+	letter = sent[j - 1];
+	trans(sent, letter);
+	puts(sent);
+	printf("\n");
+
+}

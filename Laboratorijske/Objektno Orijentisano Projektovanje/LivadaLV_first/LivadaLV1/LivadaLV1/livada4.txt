@@ -1,0 +1,11 @@
+10
+t j t t t j s2 j t t
+j t t t j t t s1 t t
+s1 s2 j j t s2 s1 j t t
+t t t t t t t t j t
+t t t j t s1 t t t s2
+t j j t j t t t t s1
+t t t j s2 s2 t t j t
+j s1 j s1 t t t j t t
+s2 t s1 j t t j t t t
+s1 t t t t t t t j t

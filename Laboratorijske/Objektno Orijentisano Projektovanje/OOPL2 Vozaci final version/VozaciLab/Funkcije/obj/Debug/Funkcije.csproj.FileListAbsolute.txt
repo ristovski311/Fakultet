@@ -1,0 +1,6 @@
+C:\Users\risto\source\repos\VozaciLab\Funkcije\bin\Debug\Funkcije.dll
+C:\Users\risto\source\repos\VozaciLab\Funkcije\bin\Debug\Funkcije.pdb
+C:\Users\risto\source\repos\VozaciLab\Funkcije\obj\Debug\Funkcije.csproj.AssemblyReference.cache
+C:\Users\risto\source\repos\VozaciLab\Funkcije\obj\Debug\Funkcije.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\VozaciLab\Funkcije\obj\Debug\Funkcije.dll
+C:\Users\risto\source\repos\VozaciLab\Funkcije\obj\Debug\Funkcije.pdb

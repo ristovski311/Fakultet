@@ -1,0 +1,31 @@
+//jul22
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int i, j = 0, sword, eword, wordlen, countp = 0, countw = 0;
+	char word[100];
+	FILE* fr, * fpal, * fbr;
+	fr = fopen("reci.txt", "r");
+	fpal = fopen("palindromi.txt", "a");
+	fbr = fopen("broj_reci.txt", "w");
+	while (!feof(fr))
+	{
+		fscanf(fr, "%s", word);
+		countw++;
+		wordlen = 0;
+		j = 0;
+		while (word[wordlen] != '\0')
+			wordlen++;
+		for (i = 0; i < wordlen / 2; i++)
+			if (word[i] == word[wordlen - 1 - i])
+				j++;
+		if (j == wordlen / 2)
+		{
+			countp++;
+			fprintf(fpal, "%s\n", word);
+		}
+	}
+	fprintf(fbr, "%d %d", countp, countw - countp);
+}

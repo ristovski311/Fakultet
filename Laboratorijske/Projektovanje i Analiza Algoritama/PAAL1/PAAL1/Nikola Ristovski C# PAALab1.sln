@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PAAL1", "PAAL1\PAAL1.csproj", "{7F43F32C-3723-4C85-AB17-503B8B130EDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeAFile", "MakeAFile\MakeAFile.csproj", "{05D4AE7A-8BE2-4B50-9873-CDE1B67A28E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F43F32C-3723-4C85-AB17-503B8B130EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F43F32C-3723-4C85-AB17-503B8B130EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F43F32C-3723-4C85-AB17-503B8B130EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F43F32C-3723-4C85-AB17-503B8B130EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D4AE7A-8BE2-4B50-9873-CDE1B67A28E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D4AE7A-8BE2-4B50-9873-CDE1B67A28E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D4AE7A-8BE2-4B50-9873-CDE1B67A28E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D4AE7A-8BE2-4B50-9873-CDE1B67A28E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50B7AD9F-AE9E-449E-9F04-E6D535B7AA65}
+	EndGlobalSection
+EndGlobal

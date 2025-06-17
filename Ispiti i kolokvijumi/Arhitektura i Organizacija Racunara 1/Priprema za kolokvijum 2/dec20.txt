@@ -1,0 +1,47 @@
+//
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void tria(char s[], char words[50][50], int *count)
+{
+	int p, q = 0, st, fin, wcount = 0, acount = 0;
+	char word[50];
+	p = 0;
+	while (s[p] != '.')
+	{
+		acount = 0;
+		while (s[p] == ' ')
+			p++;
+		st = p;
+		while (s[p] != ' ' && s[p] != '.')
+		{
+			if (s[p] == 'a' || s[p] == 'A')
+				acount++;
+			p++;
+		}
+		fin = p;
+		for (q = st; q < fin; q++)
+			word[q - st] = s[q];
+		word[fin - st] = '\0';
+		if (acount == 3)
+		{
+			strcpy(words[wcount], word);
+			wcount++;
+
+		}
+	}
+	strcpy(words[wcount + 1], "cao");
+	*count = wcount;
+}
+void main()
+{
+	int i, count;
+	char sent[100], words[100][100];
+	printf("Unesi recenicu\n");
+	gets(sent);
+	tria(sent, words, &count);
+	for (i = 0; i <= count; i++)
+		puts(words[i]);
+
+
+}

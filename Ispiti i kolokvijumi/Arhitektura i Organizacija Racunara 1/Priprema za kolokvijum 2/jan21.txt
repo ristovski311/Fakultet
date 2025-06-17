@@ -1,0 +1,73 @@
+//
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	char otac[512], majka[512], komb[512], c;
+	int i = 0, j, br, correct = 1;
+	FILE* fo, * fm, * fb;
+	fo = fopen("otac.txt", "r");
+	fm = fopen("majka.txt", "r");
+	while (!feof(fo) && correct)
+	{
+		fscanf(fo, "%c", &c);
+		switch (c)
+		{
+		case 'b': 
+		case 'z': 
+		case 'p': 
+			otac[i] = c; 
+			i++; 
+			break;
+		default:
+			correct = 0;
+		}
+	}
+	while (!feof(fm) && correct)
+	{
+		fscanf(fm, "%c", &c);
+		switch (c)
+		{
+		case 'b':
+		case 'z':
+		case 'p':
+			majka[i] = c;
+			i++;
+			break;
+		default:
+			correct = 0;
+		}
+	}
+	fclose(fo);
+	fclose(fm);
+	if (!correct)
+		printf("Pogresno!\n");
+	i = 0;
+	while (i < 512)
+	{
+		if (i % 2 == 0)
+			komb[i] = otac[i / 2];
+		else
+			komb[i] = majka[i / 2];
+		i++;
+	}
+	i = 0;
+	while (i < 512)
+	{
+		switch (komb[i])
+		{
+		case 'b':
+			komb[i] = 'z';
+			break;
+		case 'z':
+			komb[i] = 'p';
+			break;
+		case 'p':
+			komb[i] = 'b';
+			break;
+		}
+		i+= 5;
+	}
+
+}

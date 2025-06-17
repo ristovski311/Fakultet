@@ -1,0 +1,6 @@
+C:\Users\risto\source\repos\Memorije\Podaci\bin\Debug\Podaci.dll
+C:\Users\risto\source\repos\Memorije\Podaci\bin\Debug\Podaci.pdb
+C:\Users\risto\source\repos\Memorije\Podaci\obj\Debug\Podaci.csproj.AssemblyReference.cache
+C:\Users\risto\source\repos\Memorije\Podaci\obj\Debug\Podaci.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\Memorije\Podaci\obj\Debug\Podaci.dll
+C:\Users\risto\source\repos\Memorije\Podaci\obj\Debug\Podaci.pdb

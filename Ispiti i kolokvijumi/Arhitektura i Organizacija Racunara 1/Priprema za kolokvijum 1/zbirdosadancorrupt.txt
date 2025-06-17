@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+void find(int X[100], int N, int M, int* px, int* py)
+{
+	int i = 0, j, s = 0;
+	do
+	{
+		s = 0;
+		j = i;
+		do
+		{
+			s += X[j];
+			j++;
+		} while (s < M && j < N);
+		if (s == M)
+		{
+			*px = i;
+			*py = j - 1;
+		}
+		i++;
+	} while (s != M && i < N - 1);
+	if (i == N - 1) {
+		*px = -1;
+		*py = -1;
+	}
+}
+
+void main()
+{
+	int A[100], p, q, i, M, N;
+	printf("Unesi N\n");
+	scanf("%d", &N);
+	printf("Unesi niz\n");
+	for (i = 0; i < N; i++)
+		scanf("%d", &A[i]);
+	printf("Unesi zbir M\n");
+	scanf("%d", &M);
+	find(A, N, M, &p, &q);
+	printf("(%d, %d)", p, q);
+}

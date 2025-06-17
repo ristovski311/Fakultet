@@ -1,0 +1,4 @@
+107. Informacioni sistem službe za registraciju vozila – Pretpostaviti da služba za registraciju vozila predstavlja posebnu organizaciju. Sistem vodi evidenciju o svim registrovanim vozilima, njihovim vlasnicima i pristiglim zahtevima za registraciju. Zahtevi za registraciju se podnose na šalteru. Nakon toga se prisleduju službama za dalju obradu tj. odobravanje ili odbijanje zahteva. Placanje takse za registraciju vozila moguce je izvršiti elektronskim putem ili uplatom na bankovni racun službe. Svi relevantni podaci cuvaju se u centralizovanoj bazi podataka. 
+
+
+Obrazac: Suština-Predstavljanje

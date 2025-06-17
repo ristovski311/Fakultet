@@ -1,0 +1,42 @@
+//apr20
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void brisi(char s[], char pods[], int *a)
+{
+	int p, q, r, slen, podslen, found = -1;
+	slen = strlen(s);
+	podslen = strlen(pods);
+	p = 0;
+	while (p <= (slen - podslen + 1) && found == -1)
+	{
+		q = 0;
+		while (s[p + q] == pods[q])
+			q++;
+		if (q == podslen)
+		{
+			for (r = p; r < slen - podslen + 1; r++)
+				s[r] = s[r + podslen + 1];
+			slen -= podslen;
+			found = p;
+		}
+		p++;
+	}
+	*a = found;
+}
+void main()
+{
+	char velikistr[100], podstr[100];
+	int k = 0;
+	printf("Unesi veliki string\n\n");
+	gets(velikistr);
+	printf("Unesi podstr\n\n");
+	gets(podstr);
+	while (k != -1) 
+	{
+		brisi(velikistr, podstr, &k);
+		printf("%d\n", k);
+		puts(velikistr);
+		printf("\n");
+	}
+}

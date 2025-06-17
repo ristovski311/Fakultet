@@ -1,0 +1,64 @@
+//jan20
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int A[100][100], A1[100][100], i, j, k ,l, n, imax, imin, pom;
+	printf("Unesite dimenziju matrice\n");
+	scanf("%d", &n);
+	printf("Unesi matricu\n");
+	for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
+			scanf("%d", &A[i][j]);
+	printf("\n\n");
+	for (i = 0; i < n; i++)
+	{
+		printf("| ");
+		for (j = 0; j < n; j++)
+			printf("%2d ", A[i][j]);
+		printf("  |\n");
+	}
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < n; j++)
+		{
+			if (i == j)
+			{
+				imax = 0;
+				for (k = 1; k < n; k++)
+				{
+					if (A[i][k] > A[i][imax])
+						imax = k;
+				}
+				A1[i][j] = A[i][imax];
+			}
+			else
+				A1[i][j] = A[i][j];
+		}
+	}
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < n; j++)
+		{
+			if (i + j == n - 1)
+			{
+				imin = 0;
+				for (k = 1; k < n; k++)
+				{
+					if (A1[k][j] < A1[imin][j])
+						imin = k;
+				}
+				A1[i][j] = A1[imin][j];
+			}
+		}
+	}
+	printf("\n\n");
+	for (i = 0; i < n; i++)
+	{
+		printf("|  ");
+		for (j = 0; j < n; j++)
+			printf("%2d ", A1[i][j]);
+		printf("  |\n");
+	}
+}

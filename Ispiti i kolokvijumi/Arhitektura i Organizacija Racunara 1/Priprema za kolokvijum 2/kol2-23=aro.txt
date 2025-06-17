@@ -1,0 +1,158 @@
+.386
+.model flat,c
+.data
+mat dw 7, 0Ah, 4
+	dw -3, 3, -7
+	dw 0, -5, 0
+	dw 1, 3, 6
+	dw 9,2,2
+n dw 3
+m dw 5
+x dw ?
+.code
+main proc
+
+movzx esp, n
+shl esp,1
+movzx ebp, n
+dec ebp
+sub ebp, 1; smanjimo za onoliko koliko zelimo unazad da se vracamo s vrstama
+shl ebp,1
+add esp, ebp
+
+mov dx, mat[esp]
+
+movzx ecx, m
+movzx eax, n
+dec eax
+shl eax,1
+
+movzx esp, n
+shl esp,1
+
+mov edi,0
+
+mov ebx,0
+spolja:
+mov esi, 0
+sub esi,2
+
+unutra:
+add esi,2
+movzx ebp, mat[esi][ebx]
+cmp mat[esi][ebx], dx
+jle dalje
+inc edi
+dalje:
+cmp esi, eax
+jae ponovo
+jmp unutra
+ponovo:
+add ebx,esp
+loop spolja
+
+mov x,di
+main endp
+end main
+
+
+
+
+
+;5
+
+
+
+
+
+
+#include <stdio.h>
+
+extern void promena(int* niz, int* x, int* y, int* z, char brojel);
+
+int main()
+{
+	char brojel, i;
+	int niz[100];
+	int A = 0;
+	printf("Unesi broj elemenata niza: \n");
+	scanf("%c", &brojel);
+	printf("Unesi broj kojim menjas: \n");
+	scanf("%d", &A);
+	brojel -= '0';
+	printf("Unesi elemente niza: \n");
+	for (i = 0; i < brojel; i++)
+		scanf("%d", niz + (int)i);
+
+	for (i = 0; i < brojel; i++)
+		printf("%d, ", niz[i]);
+	printf("\n\n");
+
+	promena(niz, niz[0], niz[brojel - 1], &A, brojel);
+
+	for (i = 0; i < brojel; i++)
+		printf("%d, ", niz[(int)i]);
+
+	printf("\n");
+
+	return 0;
+}
+
+
+
+
+;c
+
+
+
+
+.386
+.model flat,c
+PUBLIC promena
+.code
+promena proc
+
+push ebp
+mov ebp, esp
+pushfd
+push eax
+push esi
+push ecx
+push ebx
+push edx
+push edi
+
+mov esi, [ebp + 8]
+mov cx, word ptr [ebp + 24]; br el niza
+movzx ecx, cx
+mov ebx, [ebp + 12]; manji
+mov eax, [ebp + 20]
+mov dx, [eax]
+movsx edx, dx
+mov eax, edx
+mov edx, [ebp + 16]; veci
+
+ponovi:
+
+mov edi, [4*ecx - 4 + esi]
+
+cmp edi, ebx
+JLE dalje
+cmp edi, edx
+JGE dalje
+mov [4*ecx - 4 + esi], eax
+
+dalje:
+loop ponovi
+
+pop edi
+pop edx
+pop ebx
+pop ecx
+pop esi
+pop eax
+popfd
+pop ebp
+ret 20
+promena endp
+end

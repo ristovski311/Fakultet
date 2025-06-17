@@ -1,0 +1,31 @@
+//jan22
+#include <stdio.h>
+//#include <string.h>
+#include <math.h>
+void delete(char s[], int ind, int len)
+{
+	int p = 0, strlen = 0;
+	while (s[strlen] != '\0')
+		strlen++;
+	for (p = ind; p < strlen; p++)
+		s[p] = s[p + len + 1];
+	
+}
+void main()
+{
+	char string[50];
+	gets(string);
+	int i = 0, j, len;
+	while (string[i] != ' ')
+	{
+		i++;
+	}
+	j = ++i;
+	while (string[j] != ' ' && string[j] != '\0')
+		j++;
+	len = j - i;
+	delete(string, i, len);
+	printf("\n");
+	puts(string);
+
+}

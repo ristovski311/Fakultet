@@ -1,0 +1,37 @@
+PrviTaxi
+1000
+20000000
+6
+EAuto
+Tesla S
+2018
+700
+30
+2026-10-15 7:30:00 PM
+AutoSUS
+Skoda Fabia
+2010
+7
+190
+EAuto
+Tesla X
+2018
+800
+20
+2027-02-01 6:00:00 AM
+EAuto
+Tesla 3
+2018
+450
+23
+2030-01-01 12:00:00 AM
+AutoSUS
+Golf 5
+2004
+9
+185
+AutoSUS
+Peugeot 206
+2005
+4
+197

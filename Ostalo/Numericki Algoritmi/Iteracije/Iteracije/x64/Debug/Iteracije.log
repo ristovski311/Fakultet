@@ -1,0 +1,415 @@
+﻿  Iteracije.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,13): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,25): error C2146: syntax error: missing ';' before identifier 'XMMatrixIsNaN'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,49): error C2146: syntax error: missing ')' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,49): error C2146: syntax error: missing ';' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,50): error C2059: syntax error: ')'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(31,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(31,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(99,13): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(99,13): error C2086: 'bool XM_CALLCONV': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,13):
+  see declaration of 'XM_CALLCONV'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(99,25): error C2146: syntax error: missing ';' before identifier 'XMMatrixIsInfinite'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(99,54): error C2146: syntax error: missing ')' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(99,55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(99,44): error C2086: 'int FXMMATRIX': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,39):
+  see declaration of 'FXMMATRIX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(99,54): error C2146: syntax error: missing ';' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(99,55): error C2059: syntax error: ')'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(100,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(100,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(167,13): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(167,13): error C2086: 'bool XM_CALLCONV': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,13):
+  see declaration of 'XM_CALLCONV'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(167,25): error C2146: syntax error: missing ';' before identifier 'XMMatrixIsIdentity'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(167,54): error C2146: syntax error: missing ')' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(167,55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(167,44): error C2086: 'int FXMMATRIX': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,39):
+  see declaration of 'FXMMATRIX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(167,54): error C2146: syntax error: missing ';' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(167,55): error C2059: syntax error: ')'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(168,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(168,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(228,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(228,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(228,17): error C2146: syntax error: missing ';' before identifier 'XM_CALLCONV'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(230,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(230,15): error C2146: syntax error: missing ')' before identifier 'M1'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(233,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(233,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(442,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(442,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(442,8): error C2086: 'int XMMATRIX': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(228,8):
+  see declaration of 'XMMATRIX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(442,17): error C2146: syntax error: missing ';' before identifier 'XM_CALLCONV'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(444,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(444,15): error C2146: syntax error: missing ')' before identifier 'M1'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(447,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(447,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(697,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(697,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(697,8): error C2086: 'int XMMATRIX': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(228,8):
+  see declaration of 'XMMATRIX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(697,17): error C2146: syntax error: missing ';' before identifier 'XM_CALLCONV'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(697,57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(697,57): error C2146: syntax error: missing ')' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(698,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(698,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(781,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(781,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(781,8): error C2086: 'int XMMATRIX': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(228,8):
+  see declaration of 'XMMATRIX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(781,17): error C2146: syntax error: missing ';' before identifier 'XM_CALLCONV'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(783,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(783,5): error C2065: 'XMVECTOR': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(783,15): error C2065: 'pDeterminant': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(784,16): error C2146: syntax error: missing ')' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(786,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(786,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1004,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1004,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1004,8): error C2086: 'int XMMATRIX': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(228,8):
+  see declaration of 'XMMATRIX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1004,17): error C2146: syntax error: missing ';' before identifier 'XM_CALLCONV'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1006,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1006,5): error C2065: 'FXMVECTOR': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1006,15): error C2146: syntax error: missing ')' before identifier 'V1'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1009,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1009,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1020,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1020,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1020,17): error C2146: syntax error: missing ';' before identifier 'XM_CALLCONV'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1020,59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1020,59): error C2146: syntax error: missing ')' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1021,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1021,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1111,13): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1111,13): error C2086: 'bool XM_CALLCONV': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,13):
+  see declaration of 'XM_CALLCONV'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1111,25): error C2146: syntax error: missing ';' before identifier 'XMMatrixDecompose'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1113,13): error C2143: syntax error: missing ')' before '*'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1113,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1113,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1113,5): error C2086: 'int XMVECTOR': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1020,8):
+  see declaration of 'XMVECTOR'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1113,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1114,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1114,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1114,5): error C2086: 'int XMVECTOR': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1020,8):
+  see declaration of 'XMVECTOR'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1114,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1115,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1115,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1115,5): error C2086: 'int XMVECTOR': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1020,8):
+  see declaration of 'XMVECTOR'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1115,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1117,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1116,5): error C2086: 'int FXMMATRIX': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(30,39):
+  see declaration of 'FXMMATRIX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1116,15): error C2146: syntax error: missing ';' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1117,1): error C2059: syntax error: ')'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1118,1): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1118,1): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1217,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1217,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1217,8): error C2086: 'int XMMATRIX': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(228,8):
+  see declaration of 'XMMATRIX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1217,17): error C2146: syntax error: missing ';' before identifier 'XM_CALLCONV'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1218,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1219,14): error C2146: syntax error: missing ';' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1219,14): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1220,5): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1220,14): error C2065: 'g_XMIdentityR0': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1221,5): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1221,14): error C2065: 'g_XMIdentityR1': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1222,5): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1222,14): error C2065: 'g_XMIdentityR2': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1223,5): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1223,14): error C2065: 'g_XMIdentityR3': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1224,12): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1229,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1229,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1229,8): error C2086: 'int XMMATRIX': redefinition
+  (compiling source file 'Iteracije.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(228,8):
+  see declaration of 'XMMATRIX'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1229,17): error C2146: syntax error: missing ';' before identifier 'XM_CALLCONV'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1236,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1237,14): error C2146: syntax error: missing ';' before identifier 'M'
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1237,14): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1244,5): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1244,14): error C3861: 'XMVectorSet': identifier not found
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1245,5): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1245,14): error C3861: 'XMVectorSet': identifier not found
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1246,5): error C2065: 'M': undeclared identifier
+  (compiling source file 'Iteracije.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMathMatrix.inl(1246,5): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file 'Iteracije.cpp')
+  

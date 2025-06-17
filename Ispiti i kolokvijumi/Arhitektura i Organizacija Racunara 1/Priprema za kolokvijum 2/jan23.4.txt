@@ -1,0 +1,68 @@
+//okt22
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int n, m, k, l, x, y, z, A[100][100], B[100][100], C[100][100], D[100][100], E[100][100], i, j;
+	FILE* fp, * fs;
+	fp = fopen("prva.txt", "r");
+	fs = fopen("druga.txt", "r");
+	while (!feof(fp))
+	{
+		fscanf(fp, "%d", &n);
+		fscanf(fp, "%d", &m);
+		for (i = 0; i < n; i++)
+			for (j = 0; j < m; j++)
+				fscanf(fp, "%d", &A[i][j]);
+	}
+	while (!feof(fs))
+	{
+		fscanf(fs, "%d", &k);
+		fscanf(fs, "%d", &l);
+		for (i = 0; i < k; i++)
+			for (j = 0; j < l; j++)
+				fscanf(fs, "%d", &B[i][j]);
+	}
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < m; j++)
+			printf("%d ", A[i][j]);
+		printf("\n");
+	}
+	printf("\n\n");
+	for (i = 0; i < k; i++)
+	{
+		for (j = 0; j < l; j++)
+			printf("%d ", B[i][j]);
+		printf("\n");
+	}
+	printf("Unesi x < 7\n");
+	scanf("%d", &x);
+	printf("Unesi y < 3\n");
+	scanf("%d", &y);
+	printf("Unesi z < 5\n");
+	scanf("%d", &z);
+	for (i = 0; i < x; i++)
+		for (j = 0; j < y; j++)
+			C[i][j] = A[i][j];
+	for (i = k - y; i < k; i++)
+		for (j = l - z; j < l; j++)
+			D[i - (k - y)][j - (l - z)] = B[i][j];
+	for (i = 0; i < x; i++)
+	{
+		for (j = 0; j < y; j++)
+			printf("%d ", C[i][j]);
+		printf("\n");
+	}
+	printf("\n\n");
+	for (i = 0; i < y; i++)
+	{
+		for (j = 0; j < z; j++)
+			printf("%d ", D[i][j]);
+		printf("\n");
+	}
+
+
+
+}

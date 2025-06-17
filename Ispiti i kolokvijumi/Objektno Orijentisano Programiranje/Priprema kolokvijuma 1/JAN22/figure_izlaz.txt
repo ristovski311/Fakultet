@@ -1,0 +1,16 @@
+Max elemenata kolekcije: 10
+Trenutno elemenata u kolekciji: 4
+Koordinate centra: (1,1).
+Stranica kvadrata: 10
+
+Koordinate centra: (3,6).
+Stranica kvadrata: 20
+
+Koordinate centra: (4,4).
+Stranica a: 4
+Stranica b: 10
+
+Koordinate centra: (2,2).
+Stranica a: 2
+Stranica b: 5
+

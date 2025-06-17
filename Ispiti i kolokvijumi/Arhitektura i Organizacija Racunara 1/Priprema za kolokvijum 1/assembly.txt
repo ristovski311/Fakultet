@@ -1,0 +1,257 @@
+april23
+mov esi,0
+mov edi,0
+gore:
+cmp edi,20
+ja kraj
+mov bx,x
+cmp bx,y
+ja kraj
+mov ax,y
+shr ax,3
+add ax,bx
+mov x,ax
+mov ax,y
+mov dx,3
+mul dx
+mov bx,x
+div bx
+add bx,5
+sub bx,ax
+mov y,bx
+movzx ebx, y
+movzx eax, x
+add esi,eax
+add esi,ebx
+inc edi
+jmp gore
+kraj:
+mov esp,1
+
+jun23 
+movzx esi,n
+mov di,1
+gore:
+cmp di,n
+jae nije
+movzx eax,di
+movzx ebx,n
+sub ebx,eax
+inc eax
+mul ebx
+movzx ecx,di
+skok:
+shr eax,1
+loop skok
+add esi,eax
+inc di
+jmp gore
+nije:
+mov eax,esi
+mov bx,n
+div bx
+movzx esp,ax
+
+sept23
+
+mov bp,0
+mov esi,0
+mov esp,1
+movzx ecx,k
+skok:
+shl esp,1
+loop skok
+dec esp
+gore:
+cmp bp,M
+JA nije
+movzx ebx,bp
+and ebx,esp
+shl ebx,2
+mov eax,A
+add eax,ebx
+mov ebx,A
+movzx ecx,bp
+shl ecx,2
+sub ebx,ecx
+mov edx,0
+div ebx
+add esi,eax
+inc bp
+jmp gore
+nije:
+mov eax,esi
+
+jan22
+
+gore:
+cmp x,0
+je kraj
+cmp y,1
+jbe kraj
+mov ax,z
+add ax,y
+dec ax
+mul ax
+movzx ebx,ax
+movzx edx,dx
+shl edx,16
+add ebx,edx
+mov ax,y
+dec ax
+mov cx,x
+mul cx
+movzx eax,ax
+movzx edx,dx
+shl edx,16
+add eax,edx
+add eax,10
+mov edx,0
+div ebx
+mov x,ax
+movzx eax,y
+shr eax,1
+inc eax
+mov y,ax
+jmp gore
+kraj:
+mov bp, x
+
+JUN2
+
+
+mov n,16
+movzx esi,n
+mov di,1
+gore:
+cmp di,n
+jae dole
+movzx eax,di
+movzx ebx,n
+sub ebx,eax
+shl eax,1
+mul bx
+movzx edx,dx
+shl edx,16
+add eax,edx
+add esi,eax
+adc ebp,0
+inc di
+jmp gore
+dole:
+movzx eax,n
+mul ax
+movzx edx,dx
+shl edx,16
+add eax,edx
+movzx ebx,n
+mul ebx
+and eax, 0FFh
+mov ebx,eax
+mov eax,esi
+mov edx,ebp
+div ebx
+mov KOL, eax
+mov OST, edx
+
+
+JUN 22
+
+MOV EBP, 1
+MOV ESP, 1
+MOV ESI,0
+MOVZX ECX,P
+gore:
+SHL EBP,1
+LOOP gore
+DEC EBP
+MOV CL,P
+vrh:
+CMP ESP,N
+JA nije
+MOV EDX,0
+MOV EAX,ESP
+AND EAX,EBP
+ADD EAX,X
+ADC EDX,0
+MOV EBX,X
+MOV EDI,ESP
+ROL EDI,CL
+AND EDI, EBP
+ROR EDI,CL
+SUB EBX,EDI
+DIV EBX
+ADD ESI, EAX
+INC ESP
+JMP vrh
+nije:
+MOV S,ESI
+
+sept 22
+
+mov sp,2
+mov esi,0
+mov edi,0
+gore:
+cmp sp,N
+JA dole
+movzx eax,sp
+mov ebx,3
+mul ebx
+inc eax
+movzx ebx,sp
+mul ebx
+shl ebx,1
+inc ebx
+mul ebx
+movzx ebx,sp
+inc ebx
+div ebx
+mov cx,sp
+shr cx,1
+JC oduzmi
+add esi,eax
+adc edi,0
+jmp kraj
+oduzmi:
+sub esi,eax
+sbb edi, 0
+kraj:
+inc sp
+jmp gore
+dole:
+mov eax, esi
+mov ebx,edi
+
+JAN 23 NE ZNAM
+
+MOV ESI,0
+MOV EDI,1
+MOV BP,4
+MOVZX ECX,p
+ponovi:
+SHL EDI,1
+LOOP ponovi
+DEC EDI
+gore:
+CMP BP,N
+JA kraj
+MOV EAX,X
+MOVZX EBX,BP
+AND EBX,EDI
+SHL EBX,1
+SUB EAX,EBX
+MOVZX EBX,BP
+MOV CL,p
+ROL EBX,CL
+XOR EBX,EDI
+ROR EBX,CL
+SHL EBX,1
+ADD EBX,X
+MOV EDX,0
+DIV EBX
+ADD ESI,EAX
+INC BP
+JMP gore
+kraj:
+MOV S,ESI

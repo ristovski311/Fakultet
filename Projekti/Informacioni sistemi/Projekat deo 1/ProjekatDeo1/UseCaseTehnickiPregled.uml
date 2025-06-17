@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PNZcUJx2Ee-RG55twJPxKg" name="UseCaseTehnickiPregled">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_PN9dAJx2Ee-RG55twJPxKg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOV4YJx2Ee-RG55twJPxKg" name="Ispitivanje funkcionalnosti vozila"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOWfcJx2Ee-RG55twJPxKg" name="Obavestenje korisnika o neuspelom tehnickom pregledu">
+    <extend xmi:type="uml:Extend" xmi:id="_vfMvwJx2Ee-RG55twJPxKg" extendedCase="_YOXGhJx2Ee-RG55twJPxKg" extensionLocation="_vfN94Jx2Ee-RG55twJPxKg"/>
+    <include xmi:type="uml:Include" xmi:id="_xYHZMJx2Ee-RG55twJPxKg" addition="_YOXGgpx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YOWfcZx2Ee-RG55twJPxKg" name="Sluzba tehnickog pregleda"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOXGgJx2Ee-RG55twJPxKg" name="Provera dokumentacije"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOXGgZx2Ee-RG55twJPxKg" name="Prosledjivanje zahteva tehnickom pregledu">
+    <extend xmi:type="uml:Extend" xmi:id="_zyAowJx2Ee-RG55twJPxKg" extendedCase="_YOXGhpx2Ee-RG55twJPxKg" extensionLocation="_zyBP0Jx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOXGgpx2Ee-RG55twJPxKg" name="Odbijanje zahteva TP">
+    <include xmi:type="uml:Include" xmi:id="_E7IF0Jx3Ee-RG55twJPxKg" addition="_YOXGgJx2Ee-RG55twJPxKg"/>
+    <include xmi:type="uml:Include" xmi:id="_Uwc_wJx3Ee-RG55twJPxKg" addition="_YOXGhZx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOXGg5x2Ee-RG55twJPxKg" name="Provera ostecenja vozila"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOXGhJx2Ee-RG55twJPxKg" name="Prijem informacija">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vfN94Jx2Ee-RG55twJPxKg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOXGhZx2Ee-RG55twJPxKg" name="Prijem zahteva TP">
+    <include xmi:type="uml:Include" xmi:id="_0ob6cJx2Ee-RG55twJPxKg" addition="_YOXGgZx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOXGhpx2Ee-RG55twJPxKg" name="Prosledjivanje zahteva sluzbama">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zyBP0Jx2Ee-RG55twJPxKg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YOXGh5x2Ee-RG55twJPxKg" name="Vlasnik vozila"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOXtkJx2Ee-RG55twJPxKg" name="Prihvatanje zahteva TP">
+    <include xmi:type="uml:Include" xmi:id="_5Qhf4Jx2Ee-RG55twJPxKg" addition="_YOXGgJx2Ee-RG55twJPxKg"/>
+    <include xmi:type="uml:Include" xmi:id="_6I6gcJx2Ee-RG55twJPxKg" addition="_YOXGg5x2Ee-RG55twJPxKg"/>
+    <include xmi:type="uml:Include" xmi:id="_6wjIMJx2Ee-RG55twJPxKg" addition="_YOV4YJx2Ee-RG55twJPxKg"/>
+    <include xmi:type="uml:Include" xmi:id="_UGW54Jx3Ee-RG55twJPxKg" addition="_YOXGhZx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_azRTQJx2Ee-RG55twJPxKg" name="Salter"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rFBDcJx2Ee-RG55twJPxKg" memberEnd="_rFCRkJx2Ee-RG55twJPxKg _rFCRkZx2Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rFBqgJx2Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rFBqgZx2Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rFCRkJx2Ee-RG55twJPxKg" name="prijem informacija" type="_YOXGhJx2Ee-RG55twJPxKg" association="_rFBDcJx2Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rFCRkZx2Ee-RG55twJPxKg" name="vlasnik vozila" type="_YOXGh5x2Ee-RG55twJPxKg" association="_rFBDcJx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yECrEJx2Ee-RG55twJPxKg" memberEnd="_yEDSIJx2Ee-RG55twJPxKg _yEDSIZx2Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yECrEZx2Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yECrEpx2Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yEDSIJx2Ee-RG55twJPxKg" name="prosledjivanje zahteva sluzbama" type="_YOXGhpx2Ee-RG55twJPxKg" association="_yECrEJx2Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yEDSIZx2Ee-RG55twJPxKg" name="salter" type="_azRTQJx2Ee-RG55twJPxKg" association="_yECrEJx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7_eZcJx2Ee-RG55twJPxKg" memberEnd="_7_fAgpx2Ee-RG55twJPxKg _7_fnkJx2Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7_fAgJx2Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7_fAgZx2Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7_fAgpx2Ee-RG55twJPxKg" name="sluzba tehnickog pregleda" type="_YOWfcZx2Ee-RG55twJPxKg" association="_7_eZcJx2Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7_fnkJx2Ee-RG55twJPxKg" name="odbijanje zahteva tp" type="_YOXGgpx2Ee-RG55twJPxKg" association="_7_eZcJx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8s3q8Jx2Ee-RG55twJPxKg" memberEnd="_8s4SApx2Ee-RG55twJPxKg _8s4SA5x2Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8s4SAJx2Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8s4SAZx2Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8s4SApx2Ee-RG55twJPxKg" name="sluzba tehnickog pregleda" type="_YOWfcZx2Ee-RG55twJPxKg" association="_8s3q8Jx2Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8s4SA5x2Ee-RG55twJPxKg" name="prijem zahteva tp" type="_YOXGhZx2Ee-RG55twJPxKg" association="_8s3q8Jx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9Rfa8Jx2Ee-RG55twJPxKg" memberEnd="_9RgpEZx2Ee-RG55twJPxKg _9RgpEpx2Ee-RG55twJPxKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9RgCAJx2Ee-RG55twJPxKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9RgpEJx2Ee-RG55twJPxKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9RgpEZx2Ee-RG55twJPxKg" name="sluzba tehnickog pregleda" type="_YOWfcZx2Ee-RG55twJPxKg" association="_9Rfa8Jx2Ee-RG55twJPxKg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9RgpEpx2Ee-RG55twJPxKg" name="prihvatanje zahteva tp" type="_YOXtkJx2Ee-RG55twJPxKg" association="_9Rfa8Jx2Ee-RG55twJPxKg"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,85 @@
+Barkod kondenzatora: 9090
+Otpornost: 12
+Min operativna temp: 80| Max operativna temp: 90
+Defektan: Ne.
+Barkod kondenzatora: 2020
+Kapacitivnost: 10
+Defektan: Ne.
+Barkod kondenzatora: 3030
+Otpornost: 10
+Min operativna temp: 100| Max operativna temp: 150
+Defektan: Ne.
+Barkod kondenzatora: 4040
+Kapacitivnost: 0
+Defektan: Da.
+Barkod kondenzatora: 5050
+Otpornost: 20
+Min operativna temp: 15| Max operativna temp: 90
+Defektan: Ne.
+Barkod kondenzatora: 6060
+Kapacitivnost: 30
+Defektan: Ne.
+Barkod kondenzatora: 8080
+Kapacitivnost: 70
+Defektan: Ne.
+Barkod kondenzatora: A0A0
+Kapacitivnost: 44
+Defektan: Ne.
+Barkod kondenzatora: 9090
+Otpornost: 12
+Min operativna temp: 80| Max operativna temp: 90
+Defektan: Ne.
+Barkod kondenzatora: 2020
+Kapacitivnost: 10
+Defektan: Ne.
+Barkod kondenzatora: 3030
+Otpornost: 10
+Min operativna temp: 100| Max operativna temp: 150
+Defektan: Ne.
+Barkod kondenzatora: 4040
+Kapacitivnost: 0
+Defektan: Da.
+Barkod kondenzatora: 5050
+Otpornost: 20
+Min operativna temp: 15| Max operativna temp: 90
+Defektan: Ne.
+Barkod kondenzatora: 6060
+Kapacitivnost: 30
+Defektan: Ne.
+Barkod kondenzatora: 8080
+Kapacitivnost: 70
+Defektan: Ne.
+Barkod kondenzatora: A0A0
+Kapacitivnost: 44
+Defektan: Ne.
+Barkod kondenzatora: 9090
+Otpornost: 12
+Min operativna temp: 80| Max operativna temp: 90
+Defektan: Ne.
+Barkod kondenzatora: 2020
+Kapacitivnost: 10
+Defektan: Ne.
+Barkod kondenzatora: 3030
+Otpornost: 10
+Min operativna temp: 100| Max operativna temp: 150
+Defektan: Ne.
+Barkod kondenzatora: 4040
+Kapacitivnost: 0
+Defektan: Da.
+Barkod kondenzatora: 5050
+Otpornost: 20
+Min operativna temp: 15| Max operativna temp: 90
+Defektan: Ne.
+Barkod kondenzatora: 6060
+Kapacitivnost: 30
+Defektan: Ne.
+Barkod kondenzatora: 8080
+Kapacitivnost: 70
+Defektan: Ne.
+Barkod kondenzatora: A0A0
+Kapacitivnost: 44
+Defektan: Ne.
+Barkod kondenzatora: 9876
+Otpornost: 9
+Min operativna temp: 10| Max operativna temp: 100
+Defektan: Ne.

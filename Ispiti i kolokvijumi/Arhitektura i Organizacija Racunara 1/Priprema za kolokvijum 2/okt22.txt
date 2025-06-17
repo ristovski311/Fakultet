@@ -1,0 +1,29 @@
+//okt22
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+void main()
+{
+	int i, j, kod, wordlen = 0;
+	char word[50];
+	FILE* fo, * fw;
+	fo = fopen("ulaz.txt", "r");
+	fw = fopen("izlaz.txt", "a");
+	while (!feof(fo))
+	{
+		fscanf(fo, "%d %s", &kod, word);
+		wordlen = 0;
+		j = 0;
+		while (word[wordlen] != '\0')
+			wordlen++;
+		for (i = 0; i < wordlen/2; i++)
+		{
+			if (word[i] == word[wordlen - 1 - i])
+				j++;
+		}
+		if (j == wordlen / 2)
+		{
+			fprintf(fw, "%d %s\n", kod, word);
+		}
+	}
+}

@@ -1,0 +1,7 @@
+6
+t t s2 t j t
+s1 t t j t t
+t t t s2 t t
+j t j t t t
+s1 t t j t t
+t t j t t t

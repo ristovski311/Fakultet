@@ -1,0 +1,93 @@
+//oktobar20
+#include <string.h>
+#include <stdio.h>
+void korak(char gajbica[50][50], int n, int m)
+{
+	int p, q;
+	char gajbica1[50][50];
+	for (p = 0; p < n; p++)
+		for (q = 0; q < m;q++)
+			gajbica1[p][q] = gajbica[p][q];
+	for (p = 0; p < n; p++)
+	{
+		for (q = 0; q < m; q++)
+		{
+			if (gajbica1[p][q] == 'p')
+			{
+				if (p > 0)
+					if (gajbica1[p - 1][q] == 'o')
+						gajbica[p - 1][q] = 'p';
+				if (q > 0)
+					if (gajbica1[p][q - 1] == 'o')
+						gajbica[p][q - 1] = 'p';
+				if (p < n - 1)
+					if (gajbica1[p + 1][q] == 'o')
+						gajbica[p + 1][q] = 'p';
+				if (q < m - 1)
+					if (gajbica1[p][q + 1] == 'o')
+						gajbica[p][q + 1] = 'p';
+			}
+		}
+	}
+}
+
+void main()
+{
+	char gajbica[50][50];
+	int i, j, n, m;
+	printf("Unesi dimenziju vrsta n\n");
+	scanf("%d", &n);
+	printf("Unesi dimenziju kolona m\n");
+	scanf("%d", &m);
+	printf("Unesi pomorandze p, o ili x\n");
+	for (i = 0; i < n; i++)
+		for (j = 0; j < m; j++)
+		{
+			getchar();
+			scanf("%c", &gajbica[i][j]);
+		}
+	printf("\n\nPre prvog kvarenja:\n");
+	for (i = 0; i < n; i++)
+	{
+		printf("|  ");
+		for (j = 0; j < m; j++)
+		{
+			printf("%c ", gajbica[i][j]);
+		}
+		printf(" |\n");
+	}
+	printf("Nakon prvog kvarenja\n\n");
+	korak(gajbica, n, m);
+	for (i = 0; i < n; i++)
+	{
+		printf("|  ");
+		for (j = 0; j < m; j++)
+		{
+			printf("%c ", gajbica[i][j]);
+		}
+		printf(" |\n");
+	}
+	printf("Nakon drugog kvarenja\n\n");
+	korak(gajbica, n, m);
+	for (i = 0; i < n; i++)
+	{
+		printf("|  ");
+		for (j = 0; j < m; j++)
+		{
+			printf("%c ", gajbica[i][j]);
+		}
+		printf(" |\n");
+	}
+	printf("Nakon treceg kvarenja\n\n");
+	korak(gajbica, n, m);
+	for (i = 0; i < n; i++)
+	{
+		printf("|  ");
+		for (j = 0; j < m; j++)
+		{
+			printf("%c ", gajbica[i][j]);
+		}
+		printf(" |\n");
+	}
+	return 0;
+}

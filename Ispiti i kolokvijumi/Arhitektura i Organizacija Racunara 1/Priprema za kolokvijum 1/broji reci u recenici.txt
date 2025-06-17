@@ -1,0 +1,27 @@
+//lab6
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int i = 0, len, found = 0, p = 0;
+	char s[200], rec[200];
+	printf("Unesi recenicu koju proveravas\n");
+	gets(s);
+	printf("Unesi rec koju proveravas\n");
+	gets(rec);
+	len = strlen(rec);
+	while (s[i] != '\0')
+	{
+		p = 0;
+		while (s[i] == rec[p] && s[i] != '\0')
+		{
+			i++;
+			p++;
+		}
+		if (p == len)
+			found++;
+		i++;
+	}
+	printf("Rec se pojavljuje %d puta\n", found);
+}

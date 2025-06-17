@@ -1,0 +1,63 @@
+.386
+.model flat,c
+public promeni
+.code
+promeni proc
+
+push ebp
+mov ebp,esp
+pushf
+push ebx
+push esi
+push edi
+
+mov ebx, [ebp + 8]
+mov esi, 0
+mov eax, [ebp + 12]
+
+petlja1:
+
+movzx edi, byte ptr [ebx + esi]
+cmp edi, 0
+je kraj
+
+cmp byte ptr [ebx + esi], 'A'
+jb dalje
+cmp byte ptr [ebx + esi], 'Z'
+ja dalje
+
+add edi, 'a'
+sub edi, 'A'
+
+dalje:
+mov [eax + esi], edi
+
+inc esi
+jmp petlja1
+
+kraj:
+
+pop edi
+pop esi
+pop ebx
+popf
+pop ebp
+ret
+promeni endp
+end
+
+
+
+
+#include <stdio.h>
+
+extern promeni(char a, char b);
+
+main()
+{
+	char prvi[] = "PrVi STRING je OvOvO\0";
+	char drugi[100];
+	promeni(prvi, drugi);
+	printf("%s\n\n", prvi);
+	printf("%s", drugi);
+}

@@ -1,0 +1,21 @@
+Emisija Studijska 2
+6
+Friday
+13000
+15
+150
+15250
+Serija 2
+8
+Friday
+20
+120000
+INOSTRANA
+7500
+Emisija Studijska 3
+9
+Saturday
+20000
+10
+200
+26400

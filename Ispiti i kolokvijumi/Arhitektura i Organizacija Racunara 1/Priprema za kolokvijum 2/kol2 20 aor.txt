@@ -1,0 +1,73 @@
+;7
+
+#include <stdio.h>
+
+int main()
+{
+	int i;
+	int niz[100];
+	int n;
+	char format[] = "%d. %d\n";
+	printf("Unesi broj elemenata: \n");
+	scanf_s("%d", &n);
+	printf("Unesi elemente niza\n");
+	for (i = 0; i < n; i++)
+	{
+		scanf_s("%d", &niz[i]);
+	}
+	_asm
+	{
+		lea esi, niz; adresa prvog elementa
+		mov ebx, n
+		dec ebx
+		shl ebx, 2
+		mov edi, esi
+		add edi, ebx; adresa poslednjeg elementa
+
+		mov ecx, n
+		shr ecx, 1; za loop
+
+		mov eax, 0
+
+		mov edx, 0
+
+		ponovo:
+
+		mov ax, 0
+			mov edx, [esi]
+			mov ebx, 0
+			broji :
+			inc ebx
+			shr edx, 1
+			adc al, 0
+			cmp ebx, 32
+			jb broji
+
+			mov ebx, 0
+			mov edx, [edi]
+			broji2:
+		inc ebx
+			shr edx, 1
+			adc ah, 0
+			cmp ebx, 32
+			jb broji2
+
+			cmp al, ah
+			jbe dalje
+			mov edx, [esi]
+			xchg edx, [edi]
+			mov[esi], edx
+
+			dalje :
+		add esi, 4
+			sub edi, 4
+
+			loop ponovo
+	}
+	for (i = 0; i < n; i++) {
+		printf("%d. %d\n", i + 1, niz[i]);
+	}
+
+	return 0;
+
+}

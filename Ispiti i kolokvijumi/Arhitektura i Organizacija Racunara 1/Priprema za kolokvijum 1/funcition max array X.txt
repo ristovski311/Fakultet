@@ -1,0 +1,27 @@
+#include <stdio.h>
+int max_ar();
+void main()
+{
+	int A[100], M, i, jmin, p;
+	printf("Unesi M\n");
+	scanf("%d", &M);
+	printf("Unesi elemente niza A\n");
+	for (i = 0; i < M; i++)
+		scanf("%d", &A[i]);
+	for (i = M - 1; i > 0; i--)
+	{
+		jmin = max_ar(A, i + 1);
+		p = A[i];
+		A[i] = A[jmin];
+		A[jmin] = p;
+	}
+	for (i = 0; i < M; i++)
+		printf("%d", A[i]);
+}
+int max_ar(int* X, int N)
+{
+	int i, imax = 0;
+	for (i = 0; i < N; i++)
+		if (X[imax] < X[i])
+			imax = i;
+}

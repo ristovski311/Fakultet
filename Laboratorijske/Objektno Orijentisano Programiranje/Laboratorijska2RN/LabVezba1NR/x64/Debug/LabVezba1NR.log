@@ -1,0 +1,8 @@
+﻿  Main.cpp
+  Matrica.cpp
+  Tacka.cpp
+  Generating Code...
+C:\OOP Lab vezbe\LabVezba1NR\Tacka.cpp(26): warning C4172: returning address of local variable or temporary: t3
+C:\OOP Lab vezbe\LabVezba1NR\Matrica.cpp(293): warning C4172: returning address of local variable or temporary: temp
+C:\OOP Lab vezbe\LabVezba1NR\Matrica.cpp(317): warning C4715: 'Matrica::VratiTacku': not all control paths return a value
+  LabVezba1NR.vcxproj -> C:\OOP Lab vezbe\LabVezba1NR\x64\Debug\LabVezba1NR.exe

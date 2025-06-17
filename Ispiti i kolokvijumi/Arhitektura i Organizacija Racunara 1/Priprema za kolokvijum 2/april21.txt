@@ -1,0 +1,45 @@
+//april21
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void par(int A[], int N, int S, int* i, int* j)
+{
+	int found = 0, p, q, m = 1;
+	p = 0;
+	while (!found && p < N)
+	{
+		q = p + 1;
+		m = A[p];
+		while (q < N && m < S)
+		{
+			m *= A[q];
+			q++;
+		}
+		if (m == S)
+		{
+			found = 1;
+			*i = p;
+			*j = q - 1;
+		}
+		p++;
+	}
+	if (!found) 
+	{
+		*i = -1;
+		*j = -1;
+	}
+}
+void main()
+{
+	int A[100], N, i, j, s;
+	printf("Unesi broj elemenata niza\n");
+	scanf("%d", &N);
+	printf("Unesi clanove niza\n");
+	for (i = 0; i < N; i++)
+		scanf("%d", &A[i]);
+	printf("Unesi broj koji proveravas\n");
+	scanf("%d", &s);
+	par(A, N, s, &i, &j);
+	printf("(%d, %d)", i, j);
+
+}

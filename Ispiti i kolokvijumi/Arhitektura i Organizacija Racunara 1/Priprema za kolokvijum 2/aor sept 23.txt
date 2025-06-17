@@ -1,0 +1,106 @@
+.386
+.model flat,c
+public promeni
+.code
+promeni proc
+push ebp
+mov ebp,esp
+push ebx
+push ecx
+push edx
+push esi
+push edi
+pushfd
+
+mov ebx, [ebp + 12]
+mov ecx, [ebp + 8]
+mov esi, ecx
+mov edi,0
+mov edx,0
+
+ponovi:
+
+mov edi, esi
+sub edi, ecx
+add edi, ebx
+
+mov al, [edi]
+
+cmp al, 'a'
+JB dalje
+cmp al, 'z'
+JA dalje
+JMP kraj
+
+dalje:
+
+mov al, [edi + 1]
+
+cmp al, 0
+je zavrseno
+cmp al, 'a'
+JB kraj
+cmp al, 'z'
+JA kraj
+
+mov dl, [edi + 1]
+
+odredi:
+
+mov al, [edi + 2]
+
+cmp dl, al
+JAE nastavi
+mov dl, al
+nastavi:
+inc edi
+mov al, [edi + 2]
+cmp al, ' '
+JE kraj2
+JMP odredi
+
+kraj2:
+
+mov edi, ebx
+add edi, esi
+sub edi, ecx
+mov [edi], dl
+
+kraj: 
+loop ponovi
+
+zavrseno:
+
+popfd
+pop edi
+pop esi
+pop edx
+pop ecx
+pop ebx
+pop ebp
+ret
+promeni endp
+end
+
+
+
+;c
+
+
+
+#include <stdio.h>
+extern void promeni(int broj, char niz[]);
+
+int main()
+{
+	char niz[100];
+	int broj = 0;
+	printf("Unesi recenicu!\n");
+	gets(niz);
+	while (niz[broj] != 0)
+		broj++;
+	promeni(broj, niz);
+	printf("\n\n");
+	puts(niz);
+	return 0;
+}

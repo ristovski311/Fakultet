@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+	int i, j, p, N, x, S = 0;
+	printf("Unesi N \n");
+	scanf("%d", &N);
+	printf("2\n");
+	i = 100;
+	while (i < N && i < 1000)
+	{
+		p = 0;
+		j = 2;
+		x = i;
+		S = 0;
+		while (x > 0)
+		{
+			S += x % 10;
+			x /= 10;
+		}
+		while (j < sqrt(S))
+		{
+			if (S % j == 0)
+				p = 1;
+			j++;
+		}
+		if (p == 0)
+		{
+			printf("%d\n", i);
+		}
+		i++;
+	}
+}

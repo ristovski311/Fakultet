@@ -1,0 +1,25 @@
+PrviTaxi
+1000
+20000000
+4
+AutoSUS
+Golf 5
+2004
+9
+185
+AutoSUS
+Peugeot 206
+2005
+4
+197
+AutoSUS
+Skoda Fabia
+2010
+7
+190
+EAuto
+Tesla 3
+2018
+450
+23
+2030-01-01 12:00:00 AM

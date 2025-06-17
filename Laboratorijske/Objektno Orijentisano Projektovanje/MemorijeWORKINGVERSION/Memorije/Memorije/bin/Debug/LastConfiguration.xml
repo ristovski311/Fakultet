@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<DimenzijeTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vrste>8</Vrste>
+  <Kolone>8</Kolone>
+  <Parovi>30</Parovi>
+  <RazliciteSlike>13</RazliciteSlike>
+</DimenzijeTable>

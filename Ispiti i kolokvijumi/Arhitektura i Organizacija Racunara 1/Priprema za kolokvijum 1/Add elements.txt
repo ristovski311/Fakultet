@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+	int i, j, x, N, m, t, M, A[100];
+	printf("Unesite N\n");
+	scanf("%d", &N);
+	printf("Unesite A\n");
+	for (i = 0; i < N; i++)
+	{
+		scanf("%d", &A[i]);
+	}
+	printf("Unesite M\n");
+	scanf("%d", &M);
+	for (i = 1; i <= M; i++)
+	{
+		printf("Unesite broj\n");
+		scanf("%d", &x);
+		m = 0;
+		for (j = 0; j < N; j++)
+		{
+			if (A[j] == x)
+				m = 1;
+		}
+		if (m == 0)
+		{
+			j = 0;
+			while (A[j] > x)
+				j++;
+			for (t = N; t > j; t--)
+				A[t] = A[t - 1];
+			N++;
+			A[j] = x;
+		}
+		
+	}
+	for (i = 0; i < N; i++)
+	{
+		printf("%d ", A[i]);
+	}
+}

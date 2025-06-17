@@ -1,0 +1,6 @@
+5
+t t t t t
+t s1 s2 t t
+t t t t t
+j t s1 j t
+t t t t j

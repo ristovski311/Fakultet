@@ -1,0 +1,11 @@
+C:\Users\risto\source\repos\OOPVOZACI\Functions\bin\Debug\net6.0\Functions.deps.json
+C:\Users\risto\source\repos\OOPVOZACI\Functions\bin\Debug\net6.0\Functions.dll
+C:\Users\risto\source\repos\OOPVOZACI\Functions\bin\Debug\net6.0\Functions.pdb
+C:\Users\risto\source\repos\OOPVOZACI\Functions\obj\Debug\net6.0\Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\risto\source\repos\OOPVOZACI\Functions\obj\Debug\net6.0\Functions.AssemblyInfoInputs.cache
+C:\Users\risto\source\repos\OOPVOZACI\Functions\obj\Debug\net6.0\Functions.AssemblyInfo.cs
+C:\Users\risto\source\repos\OOPVOZACI\Functions\obj\Debug\net6.0\Functions.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\OOPVOZACI\Functions\obj\Debug\net6.0\Functions.dll
+C:\Users\risto\source\repos\OOPVOZACI\Functions\obj\Debug\net6.0\refint\Functions.dll
+C:\Users\risto\source\repos\OOPVOZACI\Functions\obj\Debug\net6.0\Functions.pdb
+C:\Users\risto\source\repos\OOPVOZACI\Functions\obj\Debug\net6.0\ref\Functions.dll

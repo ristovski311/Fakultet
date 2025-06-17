@@ -1,0 +1,45 @@
+Ucesnika u listi: 6/10
+
+Redni broj: 1
+Ime: Petar
+Prezime: Markovic
+Poeni publike: 30
+Pesma: All i need is little love in my life
+Broj pratecih instrumenata: 10
+Broj pratecih vokala: 20
+Poeni muzickog zirija: 60
+
+Redni broj: 3
+Ime: Marko
+Prezime: Ilic
+Poeni publike: 80
+Pesma: Circles
+Broj pratecih instrumenata: 8
+Broj pratecih vokala: 10
+Poeni muzickog zirija: 60
+
+Redni broj: 4
+Ime: Ilija
+Prezime: Minic
+Poeni publike: 70
+Broj rekvizita: 10
+Poeni za ideju: 40
+Poeni za izvodjenje: 50
+
+Redni broj: 5
+Ime: Nenad
+Prezime: Savic
+Poeni publike: 75
+Pesma: Faded
+Broj pratecih instrumenata: 4
+Broj pratecih vokala: 6
+Poeni muzickog zirija: 60
+
+Redni broj: 6
+Ime: Ilija
+Prezime: Minic
+Poeni publike: 40
+Broj rekvizita: 20
+Poeni za ideju: 27
+Poeni za izvodjenje: 30
+

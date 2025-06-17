@@ -1,0 +1,29 @@
+//jul22
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#define OR ||
+void main()
+{
+	int brmalih = 0, brvelikih = 0, brznakova = 0, brost = 0, i = 0;
+	char sent[100];
+	do 
+	{
+		gets(sent);
+		i = 0;
+		brmalih = brvelikih = brost = brznakova = 0;
+		while (sent[i] != '\0')
+		{
+			if ('a' <= sent[i] && sent[i] <= 'z')
+				brmalih++;
+			else if ('A' <= sent[i] && sent[i] <= 'Z')
+				brvelikih++;
+			else if (sent[i] == '!' OR sent[i] == '?' OR sent[i] == '.' OR sent[i] == ',' OR sent[i] == ':' OR sent[i] == ';')
+				brznakova++;
+			else
+				brost++;
+			i++;
+		}
+		printf("%s\nBroj malih: %d\nBroj velikih: %d\nBroj znakova: %d\nBroj ostalih znakova: %d\n\n", sent, brmalih, brvelikih, brznakova, brost);
+	} while (brmalih >= brvelikih);
+}

@@ -1,0 +1,41 @@
+//sept22
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void transf(int niz[], int n)
+{
+	int p, q, r, comb, sum = 0;
+	for (p = 0; p < n; p++)
+	{
+		comb = 0;
+		q = 1;
+		while (q < niz[p])
+		{
+			sum = 0;
+			r = q;
+			while (sum < niz[p])
+			{
+				sum += r;
+				r++;
+			}
+			if (sum == niz[p])
+			{
+				comb++;
+			}
+			q++;
+		}
+		niz[p] = comb;
+	}
+}
+void main()
+{
+	int brojevi[100], n, i, j;
+	printf("Unesi broj n\n");
+	scanf("%d", &n);
+	printf("Unesi clanove\n");
+	for (i = 0; i < n; i++)
+		scanf("%d", brojevi + i);
+	transf(brojevi, n);
+	for (i = 0; i < n; i++)
+		printf("%d ", brojevi[i]);
+}

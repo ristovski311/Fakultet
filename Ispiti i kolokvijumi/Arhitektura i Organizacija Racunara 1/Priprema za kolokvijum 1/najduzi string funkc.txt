@@ -1,0 +1,36 @@
+//3.83
+#include <stdio.h>
+#include <string.h>
+int longest(char X[50][50], int n)
+{
+	int p, q, max, len = 0, maxlen = 0;
+	for (p = 0; p < n; p++)
+	{
+		len = 0;
+		q = 0;
+		while (X[p][q] != '\0')
+		{
+			len++;
+			q++;
+		}
+		if (len > maxlen)
+		{
+			maxlen = len;
+			max = p;
+		}
+	}
+	return max;
+}
+void main()
+{
+	int i, j, n;
+	char stringovi[50][50];
+	printf("Unesi koliko stringova zelis da upises\n");
+	scanf("%d", &n);
+	getchar();
+	for (i = 0; i < n; i++)
+	{
+		gets(stringovi[i]);
+	}
+	printf("Najduzi string je na referenci stringovi[%d]", longest(stringovi, n));
+}

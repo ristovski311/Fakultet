@@ -1,0 +1,105 @@
+Preduzece: preduzece1
+Budzet: 1e+06
+Za isplatu: 2.53168e+06
+Rentabilna: nije
+
+0. Ime i prezime:Milanka_Dunjic
+  Jmbg: 18765432
+  Starost: 22
+  Osnovica plate: 4
+  Plata: 202120
+1. Ime i prezime:Milan_Milanovic
+  Jmbg: 63256452
+  Starost: 25
+  Osnovica plate: 6
+  Plata: 202080
+2. Ime i prezime:Dunja_Maric
+  Jmbg: 78787878
+  Starost: 29
+  Osnovica plate: 12
+  Plata: 303400
+3. Ime i prezime:Marko_Savkovic
+  Jmbg: 99119191
+  Starost: 33
+  Osnovica plate: 17
+  Plata: 302675
+4. Ime i prezime:Darko_Momic
+  Jmbg: 12434134
+  Starost: 36
+  Osnovica plate: 8
+  Plata: 201840
+5. Ime i prezime:Mika_Mikic
+  Jmbg: 10101110
+  Starost: 37
+  Osnovica plate: 3
+  Plata: 201390
+6. Ime i prezime:Dragan_Jovanovic
+  Jmbg: 55665566
+  Starost: 44
+  Osnovica plate: 15
+  Plata: 306725
+7. Ime i prezime:Milan_Petrovic
+  Jmbg: 33443344
+  Starost: 51
+  Osnovica plate: 10
+  Plata: 306950
+8. Ime i prezime:Sanja_Lazic
+  Jmbg: 47326556
+  Starost: 51
+  Osnovica plate: 15
+  Plata: 200550
+9. Ime i prezime:Pera_Peric
+  Jmbg: 11221122
+  Starost: 51
+  Osnovica plate: 20
+  Plata: 303950
+0. Ime i prezime:Milanka_Dunjic
+  Jmbg: 18765432
+  Starost: 22
+  Osnovica plate: 3.6
+  Plata: 202108
+1. Ime i prezime:Milan_Milanovic
+  Jmbg: 63256452
+  Starost: 25
+  Osnovica plate: 5.4
+  Plata: 202062
+2. Ime i prezime:Dunja_Maric
+  Jmbg: 78787878
+  Starost: 29
+  Osnovica plate: 10.8
+  Plata: 303370
+3. Ime i prezime:Marko_Savkovic
+  Jmbg: 99119191
+  Starost: 33
+  Osnovica plate: 15.3
+  Plata: 302632
+4. Ime i prezime:Darko_Momic
+  Jmbg: 12434134
+  Starost: 36
+  Osnovica plate: 7.2
+  Plata: 201816
+5. Ime i prezime:Mika_Mikic
+  Jmbg: 10101110
+  Starost: 37
+  Osnovica plate: 2.7
+  Plata: 201381
+6. Ime i prezime:Dragan_Jovanovic
+  Jmbg: 55665566
+  Starost: 44
+  Osnovica plate: 13.5
+  Plata: 306688
+7. Ime i prezime:Milan_Petrovic
+  Jmbg: 33443344
+  Starost: 51
+  Osnovica plate: 9
+  Plata: 306925
+8. Ime i prezime:Sanja_Lazic
+  Jmbg: 47326556
+  Starost: 51
+  Osnovica plate: 13.5
+  Plata: 200505
+9. Ime i prezime:Pera_Peric
+  Jmbg: 11221122
+  Starost: 51
+  Osnovica plate: 18
+  Plata: 303900

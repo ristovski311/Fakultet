@@ -1,0 +1,62 @@
+//okt22
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+int prosti(int niz[], int n)
+{
+	int p, q, br = 0, pom = 0;
+	for (p = 0; p < n; p++)
+	{
+		q = 2;
+		pom = 0;
+		while (q < niz[p] && pom == 0)
+		{
+			if (niz[p] % q == 0)
+				pom++;
+			q++;
+		}
+		if (!pom || niz[p]==2 || niz[p] == 1)
+			br++;
+	}
+	return br;
+}
+void main()
+{
+	int i, j, k, A[100][100], B[100][100], pom1[100], pom2[100], n;
+	printf("Unesi dimenziju matrice n\n");
+	scanf("%d", &n);
+	printf("Unesi elemente matrice\n");
+	for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
+			scanf("%d", &A[i][j]);
+	for(i = 0; i < n; i++)
+		for (j = 0;j < n;j++)
+		{
+			if (i != j)
+				B[i][j] = 0;
+			else
+			{
+				for (k = 0; k < n; k++)
+				{
+					pom1[k] = A[i][k];
+					if (i != k)
+						pom2[k] = A[k][i];
+				}
+				B[i][j] = prosti(pom1, n) + prosti(pom2, n - 1);
+			}
+		}
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < n; j++)
+			printf("%5d ", A[i][j]);
+		printf("\n");
+	}
+	printf("\n");
+	printf("\n");
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < n; j++)
+			printf("%5d ", B[i][j]);
+		printf("\n");
+	}
+}

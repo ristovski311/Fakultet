@@ -1,0 +1,31 @@
+//sept21
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int niz[100], n, found = 1, i, k;
+	printf("Unesi broj elemenata niza\n");
+	scanf("%d", &n);
+	printf("Unesi elemente niza");
+	for (i = 0; i < n; i++)
+		scanf("%d", &niz[i]);
+	i = 1;
+	while (found)
+	{
+		found = 0;
+		for (k = 0; k < n; k++)
+		{
+			if (niz[k] == (i + 1))
+				found = 1;
+		}
+		if (found)
+			i++;
+	}
+	printf("Uneti niz:\n\n");
+	for (i = 0; i < n; i++)
+		printf("%d ", niz[i]);
+	printf("\n\nBroj uzastopnih prirodnih brojeva: %d, i to su brojevi:\n", i);
+	for (k = 1; k <= i; k++)
+		printf("%d ", k);
+}

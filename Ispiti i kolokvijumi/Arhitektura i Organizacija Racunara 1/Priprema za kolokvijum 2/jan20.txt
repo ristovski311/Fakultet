@@ -1,0 +1,51 @@
+//jan20
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void zamena(char c1[], char c2[])
+{
+	char pom[50];
+	strcpy(pom, c1);
+	strcpy(c1, c2);
+	strcpy(c2, pom);
+}
+void main()
+{
+	char stringovi[100][100];
+	int n, imax = 0, imin = 0, lexmin, i, j;
+	scanf("%d", &n);
+	getchar();
+	printf("Unesi stringove\n");
+	for (i = 0; i < n; i++)
+		gets(stringovi[i]);
+	printf("\n");
+	for (i = 0; i < n; i++)
+		printf("%d. %s\n", i, stringovi[i]);
+	for (i = 0; i < n - 1; i++)
+	{
+		lexmin = i;
+		for (j = i + 1; j < n; j++)
+		{
+			if (strcmp(stringovi[j], stringovi[lexmin]) < 0)
+			{
+				lexmin = j;
+			}
+		}
+		if (lexmin != i)
+			zamena(stringovi[i], stringovi[lexmin]);
+	}
+	for (i = 1; i < n; i++)
+	{
+		if (strlen(stringovi[i]) < strlen(stringovi[imin]))
+		{
+			imin = i;
+		}
+		if (strlen(stringovi[i]) > strlen(stringovi[imax]))
+		{
+			imax = i;
+		}
+	}
+	for (i = 0; i < n; i++)
+		printf("%d. %s\n", i, stringovi[i]);
+	printf("Najmanji string je: %s\n\nNajduzi string je: %s", stringovi[imin], stringovi[imax]);
+}

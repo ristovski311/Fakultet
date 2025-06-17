@@ -1,0 +1,14 @@
+C:\Users\risto\source\repos\PAAL1\PAAL1\bin\Release\net8.0\PAAL1.exe
+C:\Users\risto\source\repos\PAAL1\PAAL1\bin\Release\net8.0\PAAL1.deps.json
+C:\Users\risto\source\repos\PAAL1\PAAL1\bin\Release\net8.0\PAAL1.runtimeconfig.json
+C:\Users\risto\source\repos\PAAL1\PAAL1\bin\Release\net8.0\PAAL1.dll
+C:\Users\risto\source\repos\PAAL1\PAAL1\bin\Release\net8.0\PAAL1.pdb
+C:\Users\risto\source\repos\PAAL1\PAAL1\obj\Release\net8.0\PAAL1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\risto\source\repos\PAAL1\PAAL1\obj\Release\net8.0\PAAL1.AssemblyInfoInputs.cache
+C:\Users\risto\source\repos\PAAL1\PAAL1\obj\Release\net8.0\PAAL1.AssemblyInfo.cs
+C:\Users\risto\source\repos\PAAL1\PAAL1\obj\Release\net8.0\PAAL1.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\PAAL1\PAAL1\obj\Release\net8.0\PAAL1.dll
+C:\Users\risto\source\repos\PAAL1\PAAL1\obj\Release\net8.0\refint\PAAL1.dll
+C:\Users\risto\source\repos\PAAL1\PAAL1\obj\Release\net8.0\PAAL1.pdb
+C:\Users\risto\source\repos\PAAL1\PAAL1\obj\Release\net8.0\PAAL1.genruntimeconfig.cache
+C:\Users\risto\source\repos\PAAL1\PAAL1\obj\Release\net8.0\ref\PAAL1.dll

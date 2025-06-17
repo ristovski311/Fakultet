@@ -1,0 +1,50 @@
+//
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int M[100][100], i = 0, j = 0, m;
+	FILE* fm = fopen("matrica.txt", "r");
+	fscanf(fm, "%d", &m);
+	for (i = 0; i < m; i++)
+		for (j = 0; j < m; j++)
+			fscanf(fm, "%d", &M[i][j]);
+	printf("\n\n");
+	for (i = 0; i < m; i++)
+	{	
+		for (j = 0; j < m; j++)
+			printf("%d ", M[i][j]);
+		printf("\n");
+	}
+	printf("\n\n");
+	for (i = m - 1; i > 0; i--)
+		printf("%d ", M[i][0]);
+	i = 0;
+	while (i < m / 2)
+	{
+		j = 0;
+		while (j < m)
+		{
+			if (i == j)
+				printf("%d ", M[i][j]);
+			j++;
+		}
+		i++;
+	}
+	while (i >= 0)
+	{
+		j = 0;
+		while (j < m)
+		{
+			if (i + j == m - 1)
+				printf("%d ", M[i][j]);
+			j++;
+		}
+		i--;
+	}
+	for (i = 1; i < m; i++)
+		printf("%d ", M[i][m - 1]);
+
+
+}

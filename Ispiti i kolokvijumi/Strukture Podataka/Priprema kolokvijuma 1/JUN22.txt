@@ -1,0 +1,27 @@
+1.
+void LList::group()
+{
+	LListNode* cur = head;
+	LListNode* search;
+
+	while (cur->next != NULL)
+	{
+		int move = 1;
+		search = cur;
+		while (search != NULL && search->next != NULL)
+		{
+			if (search->next->info == cur->info && search != cur)
+			{
+				LListNode* tmp = search->next;
+				search->next = tmp->next;
+				tmp->next = cur->next;
+				cur->next = tmp;
+				move++;
+			}
+			else
+				search = search->next;
+		}
+		for (int i = 0; i < move; i++)
+			cur = cur->next;
+	}
+}

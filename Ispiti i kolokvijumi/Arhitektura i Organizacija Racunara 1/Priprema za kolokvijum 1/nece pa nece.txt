@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <math.h>
+void uredi(int* X, int N, int s);
+void main()
+{
+	int A[100], i, N;
+	printf("Unesi N\n");
+	scanf("%d", &N);
+	printf("Unesi niz\n");
+	for (i = 0; i < N; i++)
+	{
+		scanf("%d", &A[i]);
+	}
+	printf("Pre uredjenja\n");
+	for (i = 0; i < N; i++)
+		printf("%d ", A[i]);
+	uredi(A, N, 0);
+	printf("\nPosle neopadajuceg uredjenja\n");
+	for (i = 0; i < N; i++)
+		printf("%d ", A[i]);
+	uredi(A, N, 1);
+	printf("\nPosle nerastuceg uredjenja\n");
+	for (i = 0; i < N; i++)
+		printf("%d ", A[i]);
+
+}
+void uredi(int* X, int N, int s)
+{
+	int p, q, im, pom, i;
+	i = s;
+	if (i == 0)
+	{
+		for (p = 0; p < N - 1; p++)
+		{
+			im = p;
+			for (q = p + 1; q < N - 1; q++)
+				if (X[im] > X[q])
+					im = q;
+			if (im != p)
+			{
+				pom = X[im];
+				X[im] = X[q];
+				X[q] = pom;
+			}
+		}
+	}
+	else
+	{
+		for (p = 0; p < N - 1; p++)
+		{
+			im = p;
+			for (q = p + 1; q < N; q++)
+				if (X[im] < X[q])
+					im = q;
+			if (im != p)
+			{
+				pom = X[im];
+				X[im] = X[q];
+				X[q] = pom;
+			}
+		}
+	}
+	return;
+}

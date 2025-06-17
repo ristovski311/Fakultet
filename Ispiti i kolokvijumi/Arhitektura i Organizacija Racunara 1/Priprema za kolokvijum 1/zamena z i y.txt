@@ -1,0 +1,43 @@
+//3.87
+#include <stdio.h>
+#include <string.h>
+void rewrite(char a[], char b[])
+{	
+	FILE *fp, *fa;
+	int p, q;
+	char c;
+	fp = fopen(a, "r");
+	fa = fopen(b, "w");
+	while (!feof(fp))
+	{
+		fscanf(fp, "%c", &c);
+		switch (c)
+		{
+		case 'y':
+			fprintf(fa, "%c", 'z');
+			break;
+		case 'Y':
+			fprintf(fa, "%c", 'Z');
+			break;
+		case 'z':
+			fprintf(fa, "%c", 'y');
+			break;
+		case 'Z':
+			fprintf(fa, "%c", 'Y');
+			break;
+		default:
+			fprintf(fa, "%c", c);
+		}
+	}
+	
+
+}
+void main()
+{
+	char one[40], two[40];
+	printf("Unesi naziv prve datoteke\n");
+	gets(one);
+	printf("Unesi naziv druge datoteke\n");
+	gets(two);
+	rewrite(one, two);
+}

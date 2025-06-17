@@ -1,0 +1,73 @@
+//3.79
+#include <stdio.h>
+int skup(int X[], int x, int Y[], int y, int Z[], int* z, char mode)
+{
+	int p, q, t = 0, pom, max;
+	max = (x > y ? x : y);
+	if (mode == 'p')
+	{
+		for (p = 0; p < x; p++)
+		{
+			for (q = 0; q < y; q++)
+			{
+				if (X[p] == Y[q])
+				{
+					Z[t] = X[p];
+					t++;
+				}
+			}
+		}
+	}
+	else if (mode == 'u')
+	{
+		for (p = 0; p < x; p++)
+		{
+			pom = 0;
+			for (q = 0; q < y; q++)
+			{
+				if (X[p] == Y[q])
+				{
+					pom++;
+				}
+			}
+			if (pom == 0)
+			{
+				Z[t] = X[p];
+				t++;
+			}
+		}
+		for (q = 0; q < y; q++)
+		{
+			Z[t] = Y[q];
+			t++;
+		}
+	}
+	*z = t;
+}
+void main()
+{
+	int A[100], B[100], C[100], D[100], E[100], m, n, k, d, e, i;
+	printf("Unesi dimenziju niza A m\n");
+	scanf("%d", &m);
+	printf("Unesi dimenziju niza B n\n");
+	scanf("%d", &n);
+	printf("Unesi dimenziju niza C k\n");
+	scanf("%d", &k);
+	printf("Unesi elemente niza A\n");
+	for (i = 0; i < m; i++)
+		scanf("%d", &A[i]);
+	printf("Unesi elemente niza B\n");
+	for (i = 0; i < n; i++)
+		scanf("%d", &B[i]);
+	printf("Unesi elemente niza C\n");
+	for (i = 0; i < k; i++)
+		scanf("%d", &C[i]);
+	skup(A, m, B, n, D, &d, 'p');
+	for (i = 0; i < d; i++)
+		printf("%d ", D[i]);
+	printf("\n");
+	skup(D, d, C, k, E, &e, 'u');
+	for (i = 0; i < e; i++)
+		printf("%d ", E[i]);
+
+}

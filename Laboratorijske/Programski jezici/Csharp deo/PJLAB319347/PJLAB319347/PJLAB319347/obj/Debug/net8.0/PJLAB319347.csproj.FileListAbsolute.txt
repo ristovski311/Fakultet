@@ -1,0 +1,14 @@
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\bin\Debug\net8.0\PJLAB319347.exe
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\bin\Debug\net8.0\PJLAB319347.deps.json
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\bin\Debug\net8.0\PJLAB319347.runtimeconfig.json
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\bin\Debug\net8.0\PJLAB319347.dll
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\bin\Debug\net8.0\PJLAB319347.pdb
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\obj\Debug\net8.0\PJLAB319347.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\obj\Debug\net8.0\PJLAB319347.AssemblyInfoInputs.cache
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\obj\Debug\net8.0\PJLAB319347.AssemblyInfo.cs
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\obj\Debug\net8.0\PJLAB319347.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\obj\Debug\net8.0\PJLAB319347.dll
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\obj\Debug\net8.0\refint\PJLAB319347.dll
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\obj\Debug\net8.0\PJLAB319347.pdb
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\obj\Debug\net8.0\PJLAB319347.genruntimeconfig.cache
+C:\Users\risto\source\repos\PJLAB319347\PJLAB319347\obj\Debug\net8.0\ref\PJLAB319347.dll

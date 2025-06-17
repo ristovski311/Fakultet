@@ -1,0 +1,33 @@
+//3.60
+#include <stdio.h>
+#include <string.h>
+
+void main()
+{
+	char bigs[100], subs[100];
+	int i, j = 0, t = 0, pom, found = 0;
+	printf("unesi bigs\n");
+	gets(bigs);
+	printf("Unesi subs\n");
+	gets(subs);
+	i = 0;
+	while (found == 0 && i < strlen(bigs) - strlen(subs))
+	{
+		j = 0;
+		t = 0;
+		while (bigs[i + j] == subs[j] && subs[j] != '\0')
+		{
+			t++;
+			j++;
+		}
+		if (t == strlen(subs))
+		{
+			found = 1;
+		}
+		i++;
+	}
+	if (found == 1)
+		printf("Pozicija %d", i - 1);
+	else
+		printf("Nema podstringa");
+}

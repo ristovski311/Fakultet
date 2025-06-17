@@ -1,0 +1,93 @@
+//okt219
+#include <stdio.h>
+#include <string.h>
+int dekadni(char c1, char c2)
+{
+	int br = 10;
+	switch (c1)
+	{
+	case '0':
+		br *= 0;
+		break;
+	case '1':
+		br *= 1;
+		break;
+	case '2':
+		br *= 2;
+		break;
+	case '3':
+		br *= 3;
+		break;
+	case '4':
+		br *= 4;
+		break;
+	case '5':
+		br *= 5;
+		break;
+	case '6':
+		br *= 6;
+		break;
+	case '7':
+		br *= 7;
+		break;
+	case '8':
+		br *= 8;
+		break;
+	case '9':
+		br *= 9;
+		break;
+	}
+	switch (c2)
+	{
+	case '0':
+		br += 0;
+		break;
+	case '1':
+		br += 1;
+		break;
+	case '2':
+		br += 2;
+		break;
+	case '3':
+		br += 3;
+		break;
+	case '4':
+		br += 4;
+		break;
+	case '5':
+		br += 5;
+		break;
+	case '6':
+		br += 6;
+		break;
+	case '7':
+		br += 7;
+		break;
+	case '8':
+		br += 8;
+		break;
+	case '9':
+		br += 9;
+		break;
+	}
+	return br;
+}
+void main()
+{
+	int i = 0, br, max = 0;
+	char brojevi[200];
+	printf("Uneti\n");
+	gets(brojevi);
+	while (brojevi[i] != '\0')
+	{
+		while (brojevi[i] == ' ')
+			i++;
+		br = dekadni(brojevi[i], brojevi[i + 1]);
+		i+=2;
+		if (br > max)
+			max = br;
+	}
+	printf("%d", max);
+
+	
+}

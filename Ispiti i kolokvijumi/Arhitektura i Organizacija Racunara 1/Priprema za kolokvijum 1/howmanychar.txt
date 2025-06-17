@@ -1,0 +1,27 @@
+//3.86
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+
+int howmany(char s[], char c)
+{
+	int n = 0;
+	char p;
+	FILE* fp;
+	fp = fopen(s, "r");
+	while (!feof(fp))
+	{
+		fscanf(fp, "%c", &p);
+		if (p == c)
+			n++;
+	}
+	return n;
+}
+void main()
+{
+	int a, b, c;
+	a = howmany("ispit.txt", 'a');
+	b = howmany("ispit.txt", 'b');
+	c = howmany("ispit.txt", 'c');
+	printf("a=%d\nb=%d\nc=%d", a, b, c);
+}

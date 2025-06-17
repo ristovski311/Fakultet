@@ -1,0 +1,43 @@
+#include <stdio.h>
+void main()
+{
+	char sentence[100], word[100];
+	int i, j, p, lensen = 0, lenword = 0, k;
+	printf("Unesi recenicu sentence\n");
+	gets(sentence);
+	printf("Unesi rec word\n");
+	gets(word);
+	i = 0;
+	while (sentence[i] != '\0')
+	{
+		lensen++;
+		i++;
+	}
+	i = 0;
+	while (word[i] != '\0')
+	{
+		lenword++;
+		i++;
+	}
+	i = 0;
+	while (i <= lensen - lenword) {
+		j = i;
+		p = 0;
+		while (sentence[j] == word[j - i])
+		{
+			p++;
+			j++;
+		}
+		if (p == lenword)
+		{
+			for (k = i; k < lensen - lenword; k++)
+			{
+				sentence[k] = sentence[k + lenword];
+				lensen--;
+			}
+		}
+		i++;
+	}
+
+	printf("%s", sentence);
+}

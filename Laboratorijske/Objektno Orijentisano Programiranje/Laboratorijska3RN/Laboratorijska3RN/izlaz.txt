@@ -1,0 +1,55 @@
+1.
+Naziv: Dell_laptop
+Cena: 111
+Opis: Crni_dell_racunar
+
+2.
+Naziv: Asus_laptop
+Cena: 222
+Opis: Sjajan_racunar
+
+3.
+Torba za laptop racunar. Sadrzi sledeci artikal: (cena torbe: 222)
+Naziv: Samsung_laptop
+Cena: 333
+Opis: Crni_samsung_laptop
+
+4.
+Naziv: Samsung_laptop
+Cena: 333
+Opis: Crni_samsung_laptop
+
+5.
+Naziv: hp_laptop
+Cena: 333
+Opis: Sivi_laptop.
+
+6.
+Torba za laptop racunar. Sadrzi sledeci artikal: (cena torbe: 444)
+Naziv: Dell_laptop
+Cena: 111
+Opis: Crni_dell_racunar
+
+7.
+Naziv: Apple_Mac
+Cena: 555
+Opis: Sivi_macbook
+
+8.
+Torba za laptop racunar. Sadrzi sledeci artikal: (cena torbe: 555)
+Naziv: hp_laptop
+Cena: 333
+Opis: Sivi_laptop.
+
+9.
+Torba za laptop racunar. Sadrzi sledeci artikal: (cena torbe: 888)
+Naziv: Asus_laptop
+Cena: 222
+Opis: Sjajan_racunar
+
+10.
+Torba za laptop racunar. Sadrzi sledeci artikal: (cena torbe: 999)
+Naziv: Apple_Mac
+Cena: 555
+Opis: Sivi_macbook
+

@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+void main()
+{
+	int A[100], B[100], P[100], N, M, j, i = 0, p = 0, t = 0;
+	printf("Unesite broj clanova niza A\n");
+	scanf("%d", &N);
+	printf("Unesite broj clanova niza P\n");
+	scanf("%d", &M);
+	printf("Unesite clanove niza A: \n");
+	for (i = 0; i < N; i++)
+	{
+		scanf("%d", &A[i]);
+	}
+	printf("Unesite clanove niza P: \n");
+	for (i = 0; i < M; i++)
+	{
+		scanf("%d", &P[i]);
+	}
+	i = 0;
+	do 
+	{
+		for (j = 0; j < M; j++)
+		{
+			B[j] = A[j + i];
+		}
+		t = 0;
+		while (B[t] == P[t] && t < M)
+		{
+			t++;
+		}
+		if (t == M)
+		{
+			for (j = i; j < N - 1; j++)
+			{
+				A[j] = A[j + M];
+			}
+			p = 1;
+		}
+		i++;
+	} while (p != 1 && i < N-2);
+
+	for (i = 0; i < N - M; i++)
+	{
+		printf("%d ", A[i]);
+	}
+}

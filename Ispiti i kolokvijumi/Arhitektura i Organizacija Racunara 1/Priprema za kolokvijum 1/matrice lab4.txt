@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+	int i, j, t, N, S = 0, A[100][100], B[100][100], C[100][100], D[100][100];
+	printf("Unesi red matrica\n");
+	scanf("%d", &N);
+	printf("Unesi clanove matrice B\n");
+	for (i = 0; i < N; i++)
+		for (j = 0; j < N;j++)
+			scanf("%d", &B[i][j]);
+	printf("Unesi clanove matrice C\n");
+	for (i = 0; i < N; i++)
+		for (j = 0; j < N;j++)
+			scanf("%d", &C[i][j]);
+	printf("Unesi clanove matrice D\n");
+	for (i = 0; i < N; i++)
+		for (j = 0; j < N;j++)
+			scanf("%d", &D[i][j]);
+	for (i = 0; i < N; i++)
+	{	
+		for (j = 0; j < N; j++)
+		{
+			S = 0;
+			for (t = 0; t < N; t++)
+				S += B[i][t] * C[t][j];
+			A[i][j] = S + D[i][j];
+		}	
+	}
+	printf("Matrica A = B * C + D: \n");
+	for (i = 0; i < N; i++)
+	{
+		for (j = 0; j < N;j++)
+			printf("%d ", A[i][j]);
+		printf("\n");
+	}
+}

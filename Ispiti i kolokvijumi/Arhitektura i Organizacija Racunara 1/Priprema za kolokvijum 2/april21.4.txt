@@ -1,0 +1,49 @@
+//april21
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int M[100][100], pom[100], i, j, k, n, m = 0, pom1, imax;
+	printf("Unesi n\n");
+	scanf("%d", &n);
+	printf("Unesi vrednosti elemenata matrice\n");
+	for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
+			scanf("%d", &M[i][j]);
+	for (i = 0; i < n; i += 2)
+	{
+		for (j = 0; j < n; j += 2)
+		{
+			pom[m] = M[j][i];
+			m++;
+		}
+		for (j = 0; j < m - 1; j++)
+		{
+			imax = j;
+			for (k = j + 1; k < m; k++)
+			{
+				if (pom[imax] < pom[k])
+					imax = k;
+			}
+			if (imax != j)
+			{
+				pom1 = pom[imax];
+				pom[imax] = pom[j];
+				pom[j] = pom1;
+			}
+		}
+		m = 0;
+		for (j = 0; j < n; j += 2)
+		{
+			M[j][i] = pom[m];
+			m++;
+		}
+	}
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < n; j++)
+			printf("%2d ", M[i][j]);
+		printf("\n");
+	}
+}

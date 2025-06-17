@@ -1,0 +1,27 @@
+//oktII21
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int M[100][100], n, x1 = 1, x2 = 1, pom, i, j;
+	scanf("%d", &n);
+	for (i = 0; i < n;i++)
+	{
+		for (j = 0; j < n; j++)
+		{
+			M[j][i] = x2;
+			pom = x1;
+			x1 += x2;
+			x2 = pom;
+		}
+	}
+	for (i = 0; i < n;i++)
+	{
+		for (j = 0; j < n; j++)
+		{
+			printf("%3d ", M[i][j]);
+		}
+		printf("\n");
+	}
+}

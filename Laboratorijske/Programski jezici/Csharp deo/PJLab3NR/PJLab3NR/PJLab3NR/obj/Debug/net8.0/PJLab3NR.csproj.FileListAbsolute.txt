@@ -1,0 +1,14 @@
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\bin\Debug\net8.0\PJLab3NR.exe
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\bin\Debug\net8.0\PJLab3NR.deps.json
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\bin\Debug\net8.0\PJLab3NR.runtimeconfig.json
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\bin\Debug\net8.0\PJLab3NR.dll
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\bin\Debug\net8.0\PJLab3NR.pdb
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\obj\Debug\net8.0\PJLab3NR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\obj\Debug\net8.0\PJLab3NR.AssemblyInfoInputs.cache
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\obj\Debug\net8.0\PJLab3NR.AssemblyInfo.cs
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\obj\Debug\net8.0\PJLab3NR.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\obj\Debug\net8.0\PJLab3NR.dll
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\obj\Debug\net8.0\refint\PJLab3NR.dll
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\obj\Debug\net8.0\PJLab3NR.pdb
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\obj\Debug\net8.0\PJLab3NR.genruntimeconfig.cache
+C:\Users\risto\source\repos\PJLab3NR\PJLab3NR\obj\Debug\net8.0\ref\PJLab3NR.dll

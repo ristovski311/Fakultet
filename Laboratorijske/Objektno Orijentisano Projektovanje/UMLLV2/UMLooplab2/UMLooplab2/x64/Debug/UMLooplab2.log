@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\risto\source\repos\UMLooplab2\UMLooplab2\RAM.h(14,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file 'main.cpp')
+  
+C:\Users\risto\source\repos\UMLooplab2\UMLooplab2\HDD.h(13,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file 'main.cpp')
+  
+C:\Users\risto\source\repos\UMLooplab2\UMLooplab2\Tastatura.h(12,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file 'main.cpp')
+  
+C:\Users\risto\source\repos\UMLooplab2\UMLooplab2\Monitor.h(16,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file 'main.cpp')
+  
+C:\Users\risto\source\repos\UMLooplab2\UMLooplab2\Monitor.h(17,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file 'main.cpp')
+  
+C:\Users\risto\source\repos\UMLooplab2\UMLooplab2\main.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  UMLooplab2.vcxproj -> C:\Users\risto\source\repos\UMLooplab2\x64\Debug\UMLooplab2.exe

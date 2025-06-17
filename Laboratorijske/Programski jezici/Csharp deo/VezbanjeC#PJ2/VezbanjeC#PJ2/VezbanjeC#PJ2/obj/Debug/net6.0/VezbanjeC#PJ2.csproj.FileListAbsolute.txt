@@ -1,0 +1,14 @@
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\bin\Debug\net6.0\VezbanjeC#PJ2.exe
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\bin\Debug\net6.0\VezbanjeC#PJ2.deps.json
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\bin\Debug\net6.0\VezbanjeC#PJ2.runtimeconfig.json
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\bin\Debug\net6.0\VezbanjeC#PJ2.dll
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\bin\Debug\net6.0\VezbanjeC#PJ2.pdb
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\obj\Debug\net6.0\VezbanjeC#PJ2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\obj\Debug\net6.0\VezbanjeC#PJ2.AssemblyInfoInputs.cache
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\obj\Debug\net6.0\VezbanjeC#PJ2.AssemblyInfo.cs
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\obj\Debug\net6.0\VezbanjeC#PJ2.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\obj\Debug\net6.0\VezbanjeC#PJ2.dll
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\obj\Debug\net6.0\refint\VezbanjeC#PJ2.dll
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\obj\Debug\net6.0\VezbanjeC#PJ2.pdb
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\obj\Debug\net6.0\VezbanjeC#PJ2.genruntimeconfig.cache
+C:\Users\risto\source\repos\VezbanjeC#PJ2\VezbanjeC#PJ2\obj\Debug\net6.0\ref\VezbanjeC#PJ2.dll

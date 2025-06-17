@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_E7UKcJ0kEe-bXs74yAMiQQ" name="DATehnickiPregled">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_E8E_cJ0kEe-bXs74yAMiQQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_E7cGQJ0kEe-bXs74yAMiQQ" name="Tehnicki Pregled" node="_S3RvAJ0kEe-dDei9uwBFOw _al19MJ0kEe-dDei9uwBFOw _dLvBYJ0kEe-dDei9uwBFOw _hojK8J0kEe-dDei9uwBFOw _njrsoJ0kEe-dDei9uwBFOw _p9_L4J0kEe-dDei9uwBFOw _vGjoMJ0kEe-dDei9uwBFOw _0GwysJ0kEe-dDei9uwBFOw _2k_IoJ0kEe-dDei9uwBFOw _77RQ0J0kEe-dDei9uwBFOw _AMlVAJ0lEe-dDei9uwBFOw _DDQnMJ0lEe-dDei9uwBFOw _ZUa8IJ0lEe-dDei9uwBFOw _ujTUsJ0lEe-InZOim_JQCQ _x-mW4J0lEe-InZOim_JQCQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TNzjMJ0lEe-dDei9uwBFOw" target="_al19MJ0kEe-dDei9uwBFOw" source="_S3RvAJ0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VSD58J0lEe-dDei9uwBFOw" target="_dLvBYJ0kEe-dDei9uwBFOw" source="_al19MJ0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WIqKwJ0lEe-dDei9uwBFOw" name="[Nevalidna]" target="_hojK8J0kEe-dDei9uwBFOw" source="_dLvBYJ0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cbn9oJ0lEe-dDei9uwBFOw" name="[Neispunjeni]" target="_ZUa8IJ0lEe-dDei9uwBFOw" source="_vGjoMJ0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dDfO4J0lEe-dDei9uwBFOw" target="_vGjoMJ0kEe-dDei9uwBFOw" source="_p9_L4J0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dmnKEJ0lEe-dDei9uwBFOw" target="_p9_L4J0kEe-dDei9uwBFOw" source="_njrsoJ0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_exNU8J0lEe-dDei9uwBFOw" target="_njrsoJ0kEe-dDei9uwBFOw" source="_hojK8J0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f3tqAJ0lEe-dDei9uwBFOw" name="[Validna]" target="_ZUa8IJ0lEe-dDei9uwBFOw" source="_dLvBYJ0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oj5-EJ0lEe-InZOim_JQCQ" name="[Ispunjeni]" target="_0GwysJ0kEe-dDei9uwBFOw" source="_vGjoMJ0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qZx6kJ0lEe-InZOim_JQCQ" target="_AMlVAJ0lEe-dDei9uwBFOw" source="_ZUa8IJ0lEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rDjQUJ0lEe-InZOim_JQCQ" target="_2k_IoJ0kEe-dDei9uwBFOw" source="_0GwysJ0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sIEoYJ0lEe-InZOim_JQCQ" target="_DDQnMJ0lEe-dDei9uwBFOw" source="_AMlVAJ0lEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sqQvcJ0lEe-InZOim_JQCQ" target="_77RQ0J0kEe-dDei9uwBFOw" source="_2k_IoJ0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_00u2gJ0lEe-InZOim_JQCQ" target="_x-mW4J0lEe-InZOim_JQCQ" source="_77RQ0J0kEe-dDei9uwBFOw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1bbDEJ0lEe-InZOim_JQCQ" target="_ujTUsJ0lEe-InZOim_JQCQ" source="_DDQnMJ0lEe-dDei9uwBFOw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_S3RvAJ0kEe-dDei9uwBFOw" name="Preuzimanje zahteva od saltera" outgoing="_TNzjMJ0lEe-dDei9uwBFOw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_al19MJ0kEe-dDei9uwBFOw" name="Provera dokumentacije" incoming="_TNzjMJ0lEe-dDei9uwBFOw" outgoing="_VSD58J0lEe-dDei9uwBFOw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_dLvBYJ0kEe-dDei9uwBFOw" name="Validna dokumentacija?" incoming="_VSD58J0lEe-dDei9uwBFOw" outgoing="_WIqKwJ0lEe-dDei9uwBFOw _f3tqAJ0lEe-dDei9uwBFOw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hojK8J0kEe-dDei9uwBFOw" name="Zapoceti postupak tehnickog pregleda" incoming="_WIqKwJ0lEe-dDei9uwBFOw" outgoing="_exNU8J0lEe-dDei9uwBFOw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_njrsoJ0kEe-dDei9uwBFOw" name="Ispitivanje funkcionalnosti vozila" incoming="_exNU8J0lEe-dDei9uwBFOw" outgoing="_dmnKEJ0lEe-dDei9uwBFOw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_p9_L4J0kEe-dDei9uwBFOw" name="Provera ostecenosti vozila" incoming="_dmnKEJ0lEe-dDei9uwBFOw" outgoing="_dDfO4J0lEe-dDei9uwBFOw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_vGjoMJ0kEe-dDei9uwBFOw" name="Ispunjeni uslovi?" incoming="_dDfO4J0lEe-dDei9uwBFOw" outgoing="_cbn9oJ0lEe-dDei9uwBFOw _oj5-EJ0lEe-InZOim_JQCQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0GwysJ0kEe-dDei9uwBFOw" name="Prihvatanje zahteva" incoming="_oj5-EJ0lEe-InZOim_JQCQ" outgoing="_rDjQUJ0lEe-InZOim_JQCQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2k_IoJ0kEe-dDei9uwBFOw" name="Popunjavanje izvestaja o tehnickom pregledu" incoming="_rDjQUJ0lEe-InZOim_JQCQ" outgoing="_sqQvcJ0lEe-InZOim_JQCQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_77RQ0J0kEe-dDei9uwBFOw" name="Obavestenje sluzbe o uspesnom tehnickom pregledu" incoming="_sqQvcJ0lEe-InZOim_JQCQ" outgoing="_00u2gJ0lEe-InZOim_JQCQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_AMlVAJ0lEe-dDei9uwBFOw" name="Odbijanje zahteva" incoming="_qZx6kJ0lEe-InZOim_JQCQ" outgoing="_sIEoYJ0lEe-InZOim_JQCQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_DDQnMJ0lEe-dDei9uwBFOw" name="Obavestenje sluzbe o neuspesnom tehnickom pregledu" incoming="_sIEoYJ0lEe-InZOim_JQCQ" outgoing="_1bbDEJ0lEe-InZOim_JQCQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_ZUa8IJ0lEe-dDei9uwBFOw" incoming="_cbn9oJ0lEe-dDei9uwBFOw _f3tqAJ0lEe-dDei9uwBFOw" outgoing="_qZx6kJ0lEe-InZOim_JQCQ"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_ujTUsJ0lEe-InZOim_JQCQ" name="Neuspesan tehnicki pregled" incoming="_1bbDEJ0lEe-InZOim_JQCQ"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_x-mW4J0lEe-InZOim_JQCQ" name="Uspesan tehnicki pregled" incoming="_00u2gJ0lEe-InZOim_JQCQ"/>
+  </packagedElement>
+</uml:Model>

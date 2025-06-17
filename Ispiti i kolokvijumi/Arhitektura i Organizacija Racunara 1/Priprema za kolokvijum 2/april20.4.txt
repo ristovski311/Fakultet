@@ -1,0 +1,60 @@
+//apr20
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int A[100][100], hasway = 1, n, i, j, p1, p2;
+	char way = 'n';
+	FILE* fm;
+	fm = fopen("matrica.txt", "r");
+	fscanf(fm, "%d", &n);
+	for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
+			fscanf(fm, "%d", &A[i][j]);
+	fscanf(fm, "%d %d", &p1, &p2);
+	for (i = 0; i < n; i++)
+	{
+		printf("| ");
+		for (j = 0; j < n; j++)
+			printf("%d ", A[i][j]);
+		printf("|\n");
+	}
+	while (hasway)
+	{
+		hasway = 0;
+		if (p1 > 0 && A[p1 - 1][p2] == 1 && way != 'd')
+		{
+			p1 = p1 - 1;
+			way = 'g';
+			hasway = 1;
+			printf("(%d, %d), we went %c\n", p1, p2, way);
+			continue;
+		}
+		else if (p1 < n - 1 && A[p1 + 1][p2] == 1 && way != 'g')
+		{
+			p1 = p1 + 1;
+			way = 'd';
+			hasway = 1;
+			printf("(%d, %d), we went %c\n", p1, p2, way);
+			continue;
+		}
+		else if (p2 > 0 && A[p1][p2 - 1] == 1 && way != 'r')
+		{
+			p2--;
+			way = 'l';
+			hasway = 1;
+			printf("(%d, %d), we went %c\n", p1, p2, way);
+			continue;
+		}
+		else if (p2 < n - 1 && A[p1][p2 + 1] == 1 && way != 'l')
+		{
+			p2++;
+			way = 'r';
+			hasway = 1;
+			printf("(%d, %d), we went %c\n", p1, p2, way);
+			continue;
+		}
+	}
+	
+}

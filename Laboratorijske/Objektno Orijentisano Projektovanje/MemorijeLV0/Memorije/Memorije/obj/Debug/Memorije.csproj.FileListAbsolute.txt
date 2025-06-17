@@ -1,0 +1,16 @@
+C:\Users\risto\source\repos\Memorije\Memorije\bin\Debug\Memorije.exe.config
+C:\Users\risto\source\repos\Memorije\Memorije\bin\Debug\Memorije.exe
+C:\Users\risto\source\repos\Memorije\Memorije\bin\Debug\Memorije.pdb
+C:\Users\risto\source\repos\Memorije\Memorije\bin\Debug\Funkcije.dll
+C:\Users\risto\source\repos\Memorije\Memorije\bin\Debug\Podaci.dll
+C:\Users\risto\source\repos\Memorije\Memorije\bin\Debug\Funkcije.pdb
+C:\Users\risto\source\repos\Memorije\Memorije\bin\Debug\Podaci.pdb
+C:\Users\risto\source\repos\Memorije\Memorije\obj\Debug\Memorije.csproj.AssemblyReference.cache
+C:\Users\risto\source\repos\Memorije\Memorije\obj\Debug\Memorije.Properties.Resources.resources
+C:\Users\risto\source\repos\Memorije\Memorije\obj\Debug\Memorije.csproj.GenerateResource.cache
+C:\Users\risto\source\repos\Memorije\Memorije\obj\Debug\Memorije.csproj.CoreCompileInputs.cache
+C:\Users\risto\source\repos\Memorije\Memorije\obj\Debug\Memorije.csproj.CopyComplete
+C:\Users\risto\source\repos\Memorije\Memorije\obj\Debug\Memorije.exe
+C:\Users\risto\source\repos\Memorije\Memorije\obj\Debug\Memorije.pdb
+C:\Users\risto\source\repos\Memorije\Memorije\obj\Debug\Memorije.Game.resources
+C:\Users\risto\source\repos\Memorije\Memorije\obj\Debug\Memorije.GameModifier.resources

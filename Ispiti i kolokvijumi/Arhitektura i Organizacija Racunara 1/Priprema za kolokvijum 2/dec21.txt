@@ -1,0 +1,35 @@
+//okt22
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+	int i, j, q, w1len, w2len, sentlen = 0;
+	char sent[100], word[100], word1[100], word2[100];
+	FILE* fr;
+	fr = fopen("zamena.txt", "r");
+	printf("Unesi recenicu\n");
+	gets(sent);
+	fscanf(fr, "%s %s", word1, word2);
+	while (!feof(fr))
+	{
+		fscanf(fr, "%s %s", word1, word2);
+		i = 0;
+		while (sent[i] != '\0')
+		{
+			w1len = strlen(word1);
+			j = 0;
+			while (sent[i + j] == word1[j] && word1[j] != '\0')
+			{
+				j++;
+			}
+			if (j == w1len)
+			{
+				for (q = i; q < i + w1len; q++)
+					sent[q] = word2[q - i];
+			}
+			i++;
+		}
+	}
+	printf("%s", sent);
+}

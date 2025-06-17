@@ -1,0 +1,32 @@
+1. bool LList::moveSectionToHead(int start, int end)
+{
+	//JUN2 2023
+	LListNode* first = this->head;
+	LListNode* last = this->head;
+	if (this->head == NULL)
+		return false;
+	while (first->next != NULL && first->next->info != start)
+	{
+		first = first->next;
+	}
+	if (first == NULL)
+		return false;
+	else
+	{
+		last = first;
+		while (last != NULL && last->info != end)
+		{
+			last = last->next;
+		}
+		if (last == NULL)
+			return false;
+		else
+		{
+			LListNode* tmp = last->next;
+			last->next = this->head;
+			this->head = first->next;
+			first->next = tmp;
+			return true;
+		}
+	}
+}
